@@ -6,4 +6,9 @@ in
         name = "Raku-Nix-Example";
         src = pkgs.lib.cleanSource ./.;
         depends = [raku-nix.Inline-Perl5];
+        perl5Depends = [
+            pkgs.perlPackages.JSONXS
+            pkgs.perlPackages.TypesSerialiser
+            pkgs.perlPackages.commonsense
+        ];
     }
