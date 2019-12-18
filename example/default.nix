@@ -4,6 +4,6 @@ let
 in
     raku-nix.rakuPackage {
         name = "Raku-Nix-Example";
-        src = ./.;
+        src = pkgs.lib.cleanSource ./.;
         depends = [raku-nix.Inline-Perl5];
     }
