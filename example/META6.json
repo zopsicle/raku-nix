@@ -1,0 +1,7 @@
+{
+    "name": "Raku::Nix::Example",
+    "depends": ["Inline::Perl5"],
+    "provides": {
+        "Raku::Nix::Example": "lib/Raku/Nix/Example.pm6"
+    }
+}
