@@ -10,7 +10,7 @@ rakuPackage {
         sha256 = "1lcq2cyhcz1lj9047ybiniyal9zrkwdl6lx68pvd7yf2ww9v3snh";
     };
 
-    buildPhase = ''
+    preInstallPhase = ''
         raku configure.pl6
         make
     '';

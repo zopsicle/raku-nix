@@ -1,24 +1,19 @@
-{ lib, stdenv, makeWrapper, perlPackages, rakudo }:
+{ lib, stdenv, makeWrapper, rakudo }:
 { name, src
-, buildInputs ? [], depends ? [], perl5Depends ? []
-, buildPhase ? "true" }:
+, buildInputs ? [], depends ? []
+, preInstallPhase ? "true", postInstallPhase ? "true" }:
 stdenv.mkDerivation {
     inherit name src;
 
     buildInputs = [makeWrapper rakudo] ++ buildInputs;
 
-    phases = ["unpackPhase" "buildPhase"
-              "installPhase" "fixupPhase"];
-
-    inherit buildPhase;
+    phases = ["unpackPhase" "preInstallPhase"
+              "installPhase" "postInstallPhase"
+              "fixupPhase"];
+    inherit preInstallPhase postInstallPhase;
 
     installPhase = ''
         mkdir --parents $out
-
-        # The package may use Inline::Perl5,
-        # so we allow specifying Perl 5 packages
-        # as dependencies as well.
-        export PERL5LIB=${perlPackages.makePerlPath perl5Depends}
 
         # Construct the PERL6LIB environment variable and store it in a file.
         # It contains the repo specs for all transitive dependencies.
@@ -41,8 +36,7 @@ stdenv.mkDerivation {
 
         # Wrap each executable so that it can find all dependencies.
         for bin in $out/bin/*; do
-            wrapProgram $bin --set PERL6LIB $(< $out/PERL6LIB) \
-                             --set PERL5LIB "$PERL5LIB"
+            wrapProgram $bin --set PERL6LIB $(< $out/PERL6LIB)
         done
     '';
 }
