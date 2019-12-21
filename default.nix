@@ -5,6 +5,7 @@ let
     rakuPackages = {
         DBIish = package ./ecosystem/DBIish.nix {};
         Inline-Perl5 = package ./ecosystem/Inline-Perl5.nix {};
+        JSON-Fast = package ./ecosystem/JSON-Fast.nix {};
         LibraryMake = package ./ecosystem/LibraryMake.nix {};
         NativeHelpers-Blob = package ./ecosystem/NativeHelpers-Blob.nix {};
         Pod-Load = package ./ecosystem/Pod-Load.nix {};
