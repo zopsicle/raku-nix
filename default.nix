@@ -10,6 +10,7 @@ let
         Pod-Load = package ./ecosystem/Pod-Load.nix {};
         Pod-To-HTML = package ./ecosystem/Pod-To-HTML.nix {};
         Template-Mustache = package ./ecosystem/Template-Mustache.nix {};
+        Terminal-ANSIColor = package ./ecosystem/Terminal-ANSIColor.nix {};
         URI = package ./ecosystem/URI.nix {};
     };
 in
