@@ -35,8 +35,19 @@ stdenv.mkDerivation {
                 --repo-spec=inst\#$out
 
         # Wrap each executable so that it can find all dependencies.
+        rm -f $out/bin/*-{j,js,m}
         for bin in $out/bin/*; do
-            wrapProgram $bin --set PERL6LIB $(< $out/PERL6LIB)
+            hidden=$out/bin/.$(basename "$bin")-wrapped
+            mv "$bin" "$hidden"
+
+            makeWrapper ${rakudo}/bin/raku "$bin" \
+                --set PERL6LIB $(< $out/PERL6LIB) \
+                --add-flags "$hidden"
+
+            makeWrapper ${rakudo}/bin/raku "$bin.profile" \
+                --set PERL6LIB $(< $out/PERL6LIB) \
+                --add-flags --profile \
+                --add-flags "$hidden"
         done
     '';
 }
