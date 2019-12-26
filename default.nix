@@ -31,6 +31,7 @@ let
         Template-Mustache = package ./ecosystem/Template-Mustache.nix {};
         Terminal-ANSIColor = package ./ecosystem/Terminal-ANSIColor.nix {};
         URI = package ./ecosystem/URI.nix {};
+        URI-Encode = package ./ecosystem/URI-Encode.nix {};
     };
 in
     {inherit rakuPackage;} // rakuPackages
