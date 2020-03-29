@@ -2,7 +2,7 @@
 rakuPackage {
     name = "JSON-Fast";
     src = fetchTarball {
-        url = "https://github.com/timo/json_fast/archive/eb6ae0d339ed2441eb9df7758e3e1b6609eb5141.tar.gz";
-        sha256 = "1pgnqyfbzh1x5f6040766yck8rxfq60yr75jcgh6fylcgavm0sfr";
+        url = "https://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.10.tar.gz";
+        sha256 = "0qc4skh8gqgykpyj6mf4j0bqylwi7j69nffs2dc10hhrzvkws9l9";
     };
 }
