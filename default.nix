@@ -19,6 +19,7 @@ let
         Inline-Perl5 = package ./ecosystem/Inline-Perl5.nix {};
         JSON-Fast = package ./ecosystem/JSON-Fast.nix {};
         JSON-JWT = package ./ecosystem/JSON-JWT.nix {};
+        LibCurl = package ./ecosystem/LibCurl.nix {};
         LibraryMake = package ./ecosystem/LibraryMake.nix {};
         Log-Timeline = package ./ecosystem/Log-Timeline.nix {};
         MIME-Base64 = package ./ecosystem/MIME-Base64.nix {};
