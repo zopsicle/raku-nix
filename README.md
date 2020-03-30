@@ -21,10 +21,6 @@ Usage
 Currently these instructions assume you are experienced with Nix.
 More handholding may follow later (also: PRs welcome).
 
-This package is to be used with [rakudo-nix].
-Once you have added rakudo-nix to your Nixpkgs copy
-as per the rakudo-nix instructions, you may continue here.
-
 Obtain raku-nix using fetchTarball as usual, and import it:
 
 ```nix
@@ -37,5 +33,3 @@ in
 
 Now you can define your project with the _raku-nix.rakuPackage_ function.
 For an example, see [example/default.nix](example/default.nix).
-
-[rakudo-nix]: https://github.com/chloekek/rakudo-nix

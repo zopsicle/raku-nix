@@ -4,7 +4,6 @@ let
         sha256 = "0dkbz8fm82x4l1mx73r1vg18363dns2b5hwy8x0v0sb0qiij5hck";
     };
     config = {
-        packageOverrides = import ./rakudo-nix.nix;
     };
 in
     {}: import tarball {inherit config;}
