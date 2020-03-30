@@ -1,9 +1,9 @@
 let
     tarball = fetchTarball {
-        url = "https://github.com/NixOS/nixpkgs/archive/5e5f17da08e3a5c3f0873da0635b775435dec231.tar.gz";
-        sha256 = "0dkbz8fm82x4l1mx73r1vg18363dns2b5hwy8x0v0sb0qiij5hck";
+        url = "https://github.com/NixOS/nixpkgs/archive/24013ab951ef34c375c781300dcb3b010a8620ea.tar.gz";
+        sha256 = "0an7v7kq9j7p6wg6gncb4c9iv6jm1rwjkwqxdciv4w8w0fb2m512";
     };
     config = {
     };
 in
-    {}: import tarball {inherit config;}
+    {}: import tarball { inherit config; }
