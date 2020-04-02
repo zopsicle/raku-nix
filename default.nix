@@ -13,6 +13,9 @@ let
         DateTime-Parse = package ./ecosystem/DateTime-Parse.nix {};
         Digest = package ./ecosystem/Digest.nix {};
         Digest-HMAC = package ./ecosystem/Digest-HMAC.nix {};
+        FastCGI-NativeCall = package ./ecosystem/FastCGI-NativeCall.nix {};
+        File-Find = package ./ecosystem/File-Find.nix {};
+        File-Which = package ./ecosystem/File-Which.nix {};
         HTTP-HPACK = package ./ecosystem/HTTP-HPACK.nix {};
         IO-Path-ChildSecure = package ./ecosystem/IO-Path-ChildSecure.nix {};
         IO-Socket-Async-SSL = package ./ecosystem/IO-Socket-Async-SSL.nix {};
@@ -28,6 +31,7 @@ let
         OpenSSL = package ./ecosystem/OpenSSL.nix {};
         Pod-Load = package ./ecosystem/Pod-Load.nix {};
         Pod-To-HTML = package ./ecosystem/Pod-To-HTML.nix {};
+        Shell-Command = package ./ecosystem/Shell-Command.nix {};
         Template-Classic = package ./ecosystem/Template-Classic.nix {};
         Template-Mustache = package ./ecosystem/Template-Mustache.nix {};
         Terminal-ANSIColor = package ./ecosystem/Terminal-ANSIColor.nix {};

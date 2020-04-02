@@ -1,6 +1,6 @@
 { lib, stdenv, makeWrapper, rakudo }:
 { name, src
-, buildInputs ? [], depends ? []
+, buildInputs ? [], buildDepends ? [], depends ? []
 , preInstallPhase ? "true", postInstallPhase ? "true" }:
 stdenv.mkDerivation {
     inherit name src;
@@ -14,6 +14,21 @@ stdenv.mkDerivation {
 
     installPhase = ''
         mkdir --parents $out
+
+        # Many packages really want there to be a home directory.
+        mkdir homeless-shelter
+        export HOME=$PWD/homeless-shelter
+
+        # Execute Build.pm, typically used with LibraryMake.
+        # This can execute some code to set up stuff before installing.
+        if [[ -e Build.pm ]]; then
+            preBuildPERL6LIB=
+            for depend in ${lib.concatMapStringsSep " " (p: "${p}") buildDepends}; do
+                preBuildPERL6LIB=$preBuildPERL6LIB,$(< $depend/PERL6LIB)
+            done
+            PERL6LIB=$preBuildPERL6LIB \
+                raku -e 'EVALFILE ‘Build.pm’; ::(‘Build’).build($*CWD)'
+        fi
 
         # Construct the PERL6LIB environment variable and store it in a file.
         # It contains the repo specs for all transitive dependencies.

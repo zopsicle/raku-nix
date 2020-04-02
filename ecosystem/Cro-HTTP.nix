@@ -20,10 +20,6 @@ rakuPackage {
         sha256 = "0zmjy6yhq2xzczpyz7id40nrmaimr6vlpy34li1gjizwbydgf95n";
     };
     preInstallPhase = ''
-        # This package likes to use HOME during compilation.
-        mkdir home
-        export HOME=$PWD/home
-
         # This package likes to use libssl during compilation.
         ldLibraryPath=${lib.makeLibraryPath [openssl]}
         export LD_LIBRARY_PATH=$ldLibraryPath:$LD_LIBRARY_PATH
