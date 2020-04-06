@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."NativeHelpers-Blob" ];
     src = fetchurl {
-        url = "https://github.com/perl6/DBIish/archive/9868d84810a73232a60cd3a6086a7e120eece96d.tar.gz";
-        sha256 = "24253e50dbe565c7a717d33e809c0d7f920f0a9d8a5f8bb37cc853bbd6bd1592";
+        url = "https://github.com/perl6/DBIish/archive/a820f18a50640d9c4e111fa8fa3176f5302e77fe.tar.gz";
+        sha256 = "da2ee7b838dda165018d0a7a1acfdd57bb42aaeb01c250f07ded88fc03ce2743";
     };
 }
