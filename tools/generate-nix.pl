@@ -110,6 +110,13 @@ for (@libraries) {
     if ($_->{meta_name} eq 'LibCurl') {
         $_->{meta_native_depends} = [ qw(curl) ];
     }
+    if ($_->{meta_name} eq 'Cro::TLS') {
+        $_->{meta_native_depends} = [ qw(openssl) ];
+    }
+    if ($_->{meta_name} eq 'Cro::HTTP') {
+        # TODO: Propagate from Cro::TLS (#1).
+        $_->{meta_native_depends} = [ qw(openssl) ];
+    }
 }
 
 # Now we generate a Nix derivation for each latest version.

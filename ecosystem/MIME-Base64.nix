@@ -7,6 +7,6 @@ rakuPackage {
     depends = [  ];
     src = fetchurl {
         url = "https://github.com/perl6/Perl6-MIME-Base64/archive/4c0acad236679037e99be92b23463245cfeda800.tar.gz";
-        sha256 = "f874cfd655bb316634b47e454b58ef4bdbe7da25dcf9f780997801560c0b718d";
+        sha256 = "1bij1mzi198zycajkdr6ibhjwcb1jiqz803n2b8dg991x1l9l3pd";
     };
 }
