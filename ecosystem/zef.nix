@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/U/UG/UGEXE/Perl6/zef-0.1.15.tar.gz";
-        sha256 = "731fa82f733f2ee93301abc67990eb32492fd30f99cfe1d39947f6331ed25720";
+        url = "https://github.com/ugexe/zef/archive/v0.8.3.tar.gz";
+        sha256 = "06fzpv9xa7nglfyk3i1v64ry86gr07frvgdxwvdv7f08kgfjz60k";
     };
 }

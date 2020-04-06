@@ -4,6 +4,7 @@ let
     rakuPackage = pkgs.callPackage ./tools/rakuPackage.nix {};
     rakuPackages = {
         "if" = package ./ecosystem/if.nix {};
+        zef = package ./ecosystem/zef.nix {};
         Base64 = package ./ecosystem/Base64.nix {};
         Cro-Core = package ./ecosystem/Cro-Core.nix {};
         Cro-HTTP = package ./ecosystem/Cro-HTTP.nix {};
