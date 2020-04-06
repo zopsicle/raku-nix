@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TA/TADZIK/Perl6/Acme-Meow-0.1.tar.gz";
-        sha256 = "b9a0586070f1d5939f7af9b9537b2fc4e3fff35aaeeb0626ac1d2df22e0626d6";
+        url = "https://github.com/tadzik/perl6-Acme-Meow/archive/5b1e7553da1686b3a141334a6b1e966daf5e3463.tar.gz";
+        sha256 = "7208e3dd8ae13fc68c8e76d1a41c30f5cac4b072a9b38418064f4e99db744cc2";
     };
 }

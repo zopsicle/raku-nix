@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Email-Simple" rakuPackages."MIME-Base64" rakuPackages."MIME-QuotedPrint" ];
     src = fetchurl {
-        url = "https://github.com/retupmoca/p6-Email-MIME/archive/ba75f8c02a3f5c370a68adb0e53a0ca117a581c8.tar.gz";
-        sha256 = "7222b3ca46fe24c5364b245189994bc584ab36c9c2effbaa9c1c50c940ff2d4c";
+        url = "https://www.cpan.org/authors/id/R/RB/RBT/Perl6/Email-MIME-2.0.2.tar.gz";
+        sha256 = "7e1399c8b1df8f8c6006b715fcdf838da94a339a300e2efc4be4fc90ab58a41c";
     };
 }

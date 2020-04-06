@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Cro-HTTP" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-webapp-0.8.2.tar.gz";
-        sha256 = "f3e5834c689e81e76ab1635812a0a39354bedd35355c24a496406a9c9de432ba";
+        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-webapp-0.8.3.tar.gz";
+        sha256 = "b295833e0333a55af2659a47c5b525de246bf591a9aac43f9384938ac28b0ec8";
     };
 }

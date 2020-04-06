@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."HTTP-Parser" rakuPackages."HTTP-Status" rakuPackages."IO-Blob" ];
     src = fetchurl {
-        url = "https://github.com/tokuhirom/p6-HTTP-Server-Tiny/archive/150aaa730b0a442db08cf2da2314662cd77de74f.tar.gz";
-        sha256 = "cb4ded154c27cb36440e16206daa987835034305a3e99cd414c7019098bae54e";
+        url = "https://github.com/tokuhirom/p6-HTTP-Server-Tiny/archive/12a43efd4c070f892e202ae2cf9c9bb0378eed47.tar.gz";
+        sha256 = "f1627a922d7eebd30bb640c8fd738c50e4369f1943a42181b52e4c42cd156913";
     };
 }

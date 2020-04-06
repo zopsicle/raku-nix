@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Path-Resolve" rakuPackages."File-Presence" rakuPackages."TXN-Parser" ];
     src = fetchurl {
-        url = "https://github.com/atweiden/txn-remarshal/archive/cb79cb1382318b6a4ed3e71b0f812020dd1e8357.tar.gz";
-        sha256 = "24dd2836a44d1be3de1aeabe361060a406809a10b24c0488670e1019c5b2b814";
+        url = "https://github.com/atweiden/txn-remarshal/archive/65c578b6f45ddfcb6ecef7b2a069289a5d74c7b8.tar.gz";
+        sha256 = "a6c0bf6f9110e82e670a24305b70da1911db96b759f07def09eaf1b658ba52b3";
     };
 }

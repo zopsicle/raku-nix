@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/fjwhittle/p6-Path-Map/archive/81d0bd4ccff1a7763511d39d9dc46dcf495e6199.tar.gz";
-        sha256 = "3c23d02929b09ffe710a714fd96047d7a270ca8865005b154a55311ea041ec31";
+        url = "https://github.com/fjwhittle/p6-Path-Map/archive/5efa6813266a192ffbad93db76aa0204695ae6bd.tar.gz";
+        sha256 = "f0ebf877e17e389cd0449be26269face52620d9bd5ce03880a6173192837c24e";
     };
 }

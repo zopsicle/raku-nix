@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Temp" rakuPackages."Slang-Tuxic" ];
     src = fetchurl {
-        url = "https://github.com/Tux/CSV/archive/a06d9984b2f31a2f882ae4d6d013d58449c06303.tar.gz";
-        sha256 = "346e54939eb87928c8dafa16c873f8ca1f9bdc6aeaa6251e3eb90a211a5c04a8";
+        url = "https://github.com/Tux/CSV/archive/3a46b424d5eb6668bbf4b1f522bc445cea470024.tar.gz";
+        sha256 = "77ce54c22b6bf7dfc9b638397d2d5a445acf2469e757954aea42753aad0fb0e2";
     };
 }

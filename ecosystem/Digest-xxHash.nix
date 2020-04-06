@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/atweiden/digest-xxhash/archive/2365e9a34947b451c56d88d63804f3b5f5ed68df.tar.gz";
-        sha256 = "2ef3f8223efdfd18bf70d417b794e65a4cc0fc058b86eae0ddcfe16cddd10574";
+        url = "https://github.com/atweiden/digest-xxhash/archive/6fa5beb2d13864394d28c29f3884d4fd46b077de.tar.gz";
+        sha256 = "1c43f0353472f97034ddbc1c417dd7ff0050e59aae0b74f1ed194d26c644787b";
     };
 }

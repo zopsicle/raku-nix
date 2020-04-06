@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/ProcStats-0.2.1.tar.gz";
-        sha256 = "26e31145b4967a32d038b9383e5721900f5b07b9b1f493f40bfb6f1dfc61f4f4";
+        url = "https://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/ProcStats-0.3.0.tar.gz";
+        sha256 = "2e521eaeec1d7b1e9e0904cf9676a7f9103bf1cbe2dad083fbd7c68f72f0b6a6";
     };
 }

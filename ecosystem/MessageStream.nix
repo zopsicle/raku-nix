@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Marshal" rakuPackages."JSON-Unmarshal" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/MessageStream-0.0.2.tar.gz";
-        sha256 = "3ca661fd4c2d5876dc5a2cc0650ba2cb49d4f1edfea5e5b0a5ed98a254ce0520";
+        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/MessageStream-0.1.1.tar.gz";
+        sha256 = "f548e1b460860b068e463dc5d85736cd547b67b88c444442ea03956c45f04bce";
     };
 }

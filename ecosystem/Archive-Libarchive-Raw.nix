@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.0.10.tar.gz";
-        sha256 = "ec77b382a02324c0a03c17776e3213f3fbae0a5ce2de9e5af16d027cce2ffc41";
+        url = "https://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.1.0.tar.gz";
+        sha256 = "d9f6375d03ec3464a8bb6561959ebbf0b36e2b448577a973d8262e620f8b2f7d";
     };
 }

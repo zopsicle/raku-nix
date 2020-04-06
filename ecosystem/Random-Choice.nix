@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Random-Choice-0.0.6.tar.gz";
-        sha256 = "f299fe4714335d3405423e342c1e544fec8782d6432b47c4a5984792f5fcdcc4";
+        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Random-Choice-0.0.7.tar.gz";
+        sha256 = "9419f7ba98e706bdb50e58e47aee1589e352472496f8e1443746c26dedaaff18";
     };
 }

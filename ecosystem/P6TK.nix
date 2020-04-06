@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/ALANVF/P6TK/archive/bad48cefdc2d5b1176cf9649fba4fe13336e24c2.tar.gz";
-        sha256 = "315c5c0ec9c14f728e254a9f17ddf6a452b3b3f75cb52ce0fa277c9c393ad0ca";
+        url = "https://github.com/ALANVF/P6TK/archive/1b6ee89eb708af4844a253003710a0512240876a.tar.gz";
+        sha256 = "4f55296371428f47e900a0f78cbc0dd6dbe2fe1545f7d19853c95e19537d51aa";
     };
 }

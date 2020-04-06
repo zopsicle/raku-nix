@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Object-Container-0.0.2.tar.gz";
-        sha256 = "97a900fc5ee63e53b5f54e4c2650cd500efeeeb2dd774f2c591df5bdb8aafc87";
+        url = "https://github.com/moznion/p6-Object-Container/archive/bf1ad6154c7c192cbc44948c510d86f70f5665e8.tar.gz";
+        sha256 = "4d8f3fd406c2a22c9af651c4ab1eb0d36db5b77c6069799b7babce521062cfc2";
     };
 }

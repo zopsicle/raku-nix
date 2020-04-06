@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Digest-HMAC" rakuPackages."Digest-SHA256-Native" rakuPackages."JSON-Tiny" rakuPackages."Log-Async" rakuPackages."Net-ZMQ" rakuPackages."UUID" ];
     src = fetchurl {
-        url = "https://github.com/bduggan/p6-jupyter-kernel/archive/18d3bd82bdd4ccfcac186a50585d8f1025583900.tar.gz";
-        sha256 = "2a66ef37deb4c9d37d925c79b35a5d5053e5c2fc42ba5e76c761a7d5fe393b3e";
+        url = "https://github.com/bduggan/p6-jupyter-kernel/archive/8b254b5935c868f908db1b8a8bef6f739070f81b.tar.gz";
+        sha256 = "a7949400f889dce3663d27f2cfcf1f721752ea97c9270a8428f81bb552ceb50a";
     };
 }

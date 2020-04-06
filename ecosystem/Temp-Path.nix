@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Digest-SHA" rakuPackages."File-Directory-Tree" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Temp-Path-1.001007.tar.gz";
-        sha256 = "79eb576d4971ddc529aea3d94d7895f6c3cdc701fd7997a728060dd745731df8";
+        url = "https://github.com/ufobat/perl6-Temp-Path/archive/5a6acee907d65fc5b681a6ea022aa18217f6e99b.tar.gz";
+        sha256 = "900b1433e3d6fd9a798de0cdc74cb18dabf01d0fed533728feafb2ea402ee2bd";
     };
 }

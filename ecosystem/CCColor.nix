@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/ccworld1000/CCColor/archive/c0e3eead932d0d070d84199cea96c749b5848841.tar.gz";
-        sha256 = "360abe53a8d7e5a80399ebe90e26a2582ef1af07bc70bf08c545812829cc6050";
+        url = "https://github.com/ccworld1000/CCColor/archive/492c3436c1c267fc6a771fd79099c15819b22f64.tar.gz";
+        sha256 = "3f063c9c20e26ed40e363c5b93794c217baf59c7a155ae299db934b4d42bca83";
     };
 }

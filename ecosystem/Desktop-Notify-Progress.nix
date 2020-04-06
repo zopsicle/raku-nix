@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Desktop-Notify" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.1.tar.gz";
-        sha256 = "0fadc8c281021ac4040e95600d8b6b527b250e60ca0fd0d8e4f9dd5584582dfc";
+        url = "https://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.2.tar.gz";
+        sha256 = "29d729dccdbf6b63531a550943d67720017e289181717b89fefcdb53cc90b519";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/drforr/perl6-Format-Lisp/archive/a46d8ab4421990ab6deda31ceee9c6850b6a5e0d.tar.gz";
-        sha256 = "57901d5f4cc54eb26d9b1e40c22b5cb77f33de406c9763adcf9f2152c43f990d";
+        url = "https://github.com/drforr/perl6-Format-Lisp/archive/ea39131193d5902e483337ecff02b659da3607bb.tar.gz";
+        sha256 = "e79b9bc8f350e09a9ab8dafbd5230649dc6de6bf150be0fe639624b2deeb9a2b";
     };
 }

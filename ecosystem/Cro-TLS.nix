@@ -6,8 +6,8 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Cro-Core" rakuPackages."IO-Socket-Async-SSL" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-tls-0.8.2.tar.gz";
-        sha256 = "9241a2cd358278568a1f80ff5192fceb75d06c982b8aa48dba4bed9059bbfd6a";
+        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-tls-0.8.3.tar.gz";
+        sha256 = "f38843929603466edcdb616a25bc59694e85c943d342e19395d2edd2334b501f";
     };
     preInstallPhase = ''
         ldLibraryPath=${lib.makeLibraryPath [ openssl ]}

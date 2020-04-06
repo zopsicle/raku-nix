@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Temp" rakuPackages."Method-Also" rakuPackages."XML" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.2.6.tar.gz";
-        sha256 = "50ef748781d078dc9861e6f7b2757bdc2a8727220d1f4bd0d6cc114d82f1ad12";
+        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.2.7.tar.gz";
+        sha256 = "51218416b089c0e0e3d5ed4f361b673dd0f53647db4a0708ad1ce8b7efc873ca";
     };
 }

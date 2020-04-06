@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."DBIish" rakuPackages."NativeHelpers-Blob" ];
     src = fetchurl {
-        url = "https://github.com/salortiz/DBDish-ODBC/archive/ddcc1173b87fbac06e6dfc707294103dcb9c72a5.tar.gz";
-        sha256 = "6c50330138238887693168f6b2c4a9954f5f10315bdd325c4d7e5c66dbead263";
+        url = "https://github.com/salortiz/DBDish-ODBC/archive/0bf31c2ce576dcf4c1c6a8f3a4d7bae575272024.tar.gz";
+        sha256 = "b2c6728fb6729564d94f739d97cd6eaed6788235f6bf925acec368b490b0a652";
     };
 }

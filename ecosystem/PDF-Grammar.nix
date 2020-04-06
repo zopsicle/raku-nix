@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://github.com/p6-pdf/PDF-Grammar-p6/archive/843c9c81524c5a067c0ef9d3826969145ec6e0c6.tar.gz";
-        sha256 = "d0418d5d5f7ec7c6cf9f68ea433626e8f84303b9c1bfc66001d1553a891ee3e8";
+        url = "https://github.com/p6-pdf/PDF-Grammar-p6/archive/fd6cd5f829b15d5ec41785e575dd866ace1d1925.tar.gz";
+        sha256 = "3df28846067b583a2283de10e39555a005f0e10b420fe87098346d5eb7afef8f";
     };
 }

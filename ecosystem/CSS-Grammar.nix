@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://github.com/p6-css/CSS-Grammar-p6/archive/8d3f7e2c0692b04c0cfb989acf0db5f26d20c384.tar.gz";
-        sha256 = "574db327d2ffb909be8a952030a62842e7af4d8b56d265411b5b7b8080c8c39e";
+        url = "https://github.com/p6-css/CSS-Grammar-p6/archive/2ef5a15b741823b7f269d5b5a7397f56b506c035.tar.gz";
+        sha256 = "b083d4c0034e4a4fb466f235a9efbdcbf3ff498c93fcee428918e0b21bf5875d";
     };
 }

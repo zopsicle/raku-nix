@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."DBIish" rakuPackages."NativeHelpers-CStruct" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Pg-Notify-0.0.4.tar.gz";
-        sha256 = "52db81c1484e7eb6f6ab2d9a344f4673ba8b278d4029b972c077a111d70cf608";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Pg-Notify-0.0.5.tar.gz";
+        sha256 = "f2ed0208bd1156299a8cfc934b4d831e7bfd7524f89d2fabfc87ac9360977cec";
     };
 }

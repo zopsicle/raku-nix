@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TM/TMTVL/Perl6/Zodiac-Chinese-0.0.1.tar.gz";
-        sha256 = "6b5c68e05a76cad98c7c2c426fd4414e30684890edd7800da1975b4b448fc616";
+        url = "https://github.com/tmtvl/Zodiac-Chinese/archive/bc423017e8211eb4915bc8944bcf1b2dc0290a11.tar.gz";
+        sha256 = "251a0e2151ef0369a1787dda882c8928aef142dc47fed9864ddf20a4e2279e60";
     };
 }

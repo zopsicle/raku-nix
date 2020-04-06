@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."LibraryMake" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/DateTime-DST-0.3.tar.gz";
-        sha256 = "3c4e27ff55d55174e0691256b98a44883d8a9a2d8f342c8148bce8ac8582ad5e";
+        url = "https://github.com/zostay/DateTime-DST/archive/40b0ae99e0d1995dd55acc3fdbc4ec850ae74462.tar.gz";
+        sha256 = "5805384e961a19fd6ce55e083f0758aabbaf515d11fa3428408d182bc85861dd";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/thundergnat/Acme-Scrub/archive/d7740bfb87ef2117c75534dfef4102bdf7cf7481.tar.gz";
-        sha256 = "2ec750e0c21e08f75cecf8c7d11249823bc801b44ca97bcd397d128d29a77ec4";
+        url = "https://github.com/thundergnat/Acme-Scrub/archive/fb5f500d42db8ba1eecd73afdfc24e6d48de0167.tar.gz";
+        sha256 = "44f89fcf0199256bfff4e28afeb00e3033597aacee4219eb5113b8907532c21f";
     };
 }

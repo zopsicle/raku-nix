@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/grondilu/openssl/archive/6f523e717164f99ef913f429c799074ad947ee43.tar.gz";
-        sha256 = "92e0f7e914e84cd69ee7cf87159404a16b456f98b8d299b152e300d9784ed7a4";
+        url = "https://github.com/grondilu/openssl/archive/25e328186cd7d04e4661a382d0b6d3ca5cbab328.tar.gz";
+        sha256 = "c1d9edac881f3457e6a9dcd59c690a7de0ab973153a8fabb50100f80621cf110";
     };
 }

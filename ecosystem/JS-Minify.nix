@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/scmorrison/JS-Minify/archive/d2a952e6e9b1be7f7e1c2e42c43f5aebeaedd06a.tar.gz";
-        sha256 = "dbce265bb2bc6622ccd51c47033b431d16a7b04a19f6fa68fbb2dec8d45d6d5d";
+        url = "https://github.com/scmorrison/JS-Minify/archive/23d060eebe99de74cdfeb5d09e69eecc5f87c0dd.tar.gz";
+        sha256 = "aed3f07c3b19029a7d6e36eb62b69743e2fd15c7e0541777b9a4d0a67ae5753b";
     };
 }

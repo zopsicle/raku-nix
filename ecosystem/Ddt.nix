@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Find" rakuPackages."File-Ignore" rakuPackages."File-Temp" rakuPackages."JSON-Fast" rakuPackages."License-Software" rakuPackages."META6" rakuPackages."Pod-To-Markdown" rakuPackages."Test-META" rakuPackages."Zef" rakuPackages."Zef-Client" rakuPackages."Zef-Config" rakuPackages."Zef-Distribution" rakuPackages."Zef-Identity" ];
     src = fetchurl {
-        url = "https://github.com/kalkin/Ddt/archive/fc0bf31beda166ce6fb6d1e29fa219d7cf70eded.tar.gz";
-        sha256 = "4c4f22ad14153ea01d46cb2d4c7147a4885bcf8a2f8a25d9bd34203834b0d224";
+        url = "https://github.com/kalkin/Ddt/archive/eef70edf8ca3c48d4b4353faf52a35b2a3831516.tar.gz";
+        sha256 = "535ed7ed58702f1356e7290151da015baba07319ddb06f64d39f8a07cdb1f825";
     };
 }

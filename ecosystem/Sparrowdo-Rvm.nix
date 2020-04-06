@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Sparrowdo-Rvm";
     buildDepends = [  ];
-    depends = [ rakuPackages."Sparrowdo" rakuPackages."Test-META" ];
+    depends = [ rakuPackages."Sparrow6" rakuPackages."Test-META" ];
     src = fetchurl {
-        url = "https://github.com/melezhik/perl6-sparrowdo-rvm/archive/12d19f90c4da5c6b9d73e191f3c51f52f931dc43.tar.gz";
-        sha256 = "da4dd408539d08413cbb5123f7aee6c563f7708d33c77dfda6cc8e81e88a1b1e";
+        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Rvm-0.0.2.tar.gz";
+        sha256 = "c74554b77ffe1f9cd81db9baa4b08eef117bad54fdd820bea59d832470a6e601";
     };
 }

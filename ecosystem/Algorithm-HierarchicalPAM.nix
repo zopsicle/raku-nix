@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-HierarchicalPAM-0.0.1.tar.gz";
-        sha256 = "8d9d2790e83e97d5f51bee7b1578cd587d3c21fc01a205ed7fcab973d4591cc1";
+        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-HierarchicalPAM-0.0.2.tar.gz";
+        sha256 = "e6e4d6e101cb36a69614203c53c258d1cd4f00e88c64089f43d5aa1778d3611d";
     };
 }

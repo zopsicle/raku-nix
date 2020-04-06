@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-core-0.8.2.tar.gz";
-        sha256 = "f6ae43d31f63579cee84360a1a369573f45f1e461362cc97a7974d95d627e40a";
+        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-core-0.8.3.tar.gz";
+        sha256 = "6565aee9d6ff97748861f0694778f975a40d9af03c9f8b32fba8da8f0ca5f49e";
     };
 }

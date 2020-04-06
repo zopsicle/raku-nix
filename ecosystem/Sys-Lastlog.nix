@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."System-Passwd" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Lastlog-0.0.11.tar.gz";
-        sha256 = "a2cea502aeed22bace026a4117fc709f67bbd27de5d16ffe1d1ee8910405461a";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Lastlog-0.0.12.tar.gz";
+        sha256 = "bd6ee1ec64a93c253f35d45c63e266762033ed95511ec6ed7cf071281a23def1";
     };
 }

@@ -6,8 +6,8 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibCurl-0.9.tar.gz";
-        sha256 = "937508b3646a8db98d74e624c78b27a3f729c4cf9a83414d2447e535be152d9e";
+        url = "https://github.com/CurtTilmes/perl6-libcurl/archive/a1831ac41548c26427996ac55f0d24b404eaddcd.tar.gz";
+        sha256 = "680b7c4d0ddf5cb619ca9169bb409980993ec012a8a829a52680ce9682263b9a";
     };
     preInstallPhase = ''
         ldLibraryPath=${lib.makeLibraryPath [ curl ]}

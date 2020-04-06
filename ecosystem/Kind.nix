@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Kind-0.0.1.tar.gz";
-        sha256 = "d9c9c7ecc6afc3c67a51e71ade437144abb0163ce4791febb57451153f0df3be";
+        url = "https://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Kind-0.1.1.tar.gz";
+        sha256 = "3d311205745a84c79c866fba4f9b571ac25b21aa4807f8307c9f00f99e1ac21b";
     };
 }

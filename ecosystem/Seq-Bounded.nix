@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/Seq-Bounded-1.0.1.tar.gz";
-        sha256 = "f2970096469a2d849ac5e885311364be59b4d2ccdcfd89d65fdff8416118a46d";
+        url = "https://github.com/dmaestro/Seq-Bounded/archive/6835d432fb283dc4a0aabf44d02a4c6bf9f386e0.tar.gz";
+        sha256 = "3d8096ebc902c2c84d75f2480abdaab1a76852835e4311af968b163c5bbcd876";
     };
 }

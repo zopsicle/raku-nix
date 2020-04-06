@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Font-FreeType" rakuPackages."Native-Packing" rakuPackages."PDF" rakuPackages."PDF-Content" rakuPackages."PDF-Lite" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.7.tar.gz";
-        sha256 = "12ff53c4d310454a79b8dedb658e106cb716e6d8efc8152b14eca5cec6bd8d2e";
+        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.9.tar.gz";
+        sha256 = "f92f46c7fea45f14ef113071c7a6e8a33325455a1ae1c5d8fc0ca6c02c2604ac";
     };
 }

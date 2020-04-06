@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Term-Choose" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.3.0.tar.gz";
-        sha256 = "26469f679dc22640fd3178ca155074a072e28ffe06f7ec870147e6ff0035d127";
+        url = "https://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.3.4.tar.gz";
+        sha256 = "d9f51270178d1438a9f58f0876e8f49a124f1a407d7d7a977be32c9165962333";
     };
 }

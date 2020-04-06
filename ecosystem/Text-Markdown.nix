@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."HTML-Escape" ];
     src = fetchurl {
-        url = "https://github.com/retupmoca/p6-markdown/archive/9726c975f07a37192c4f6c282d8881f33234f90e.tar.gz";
-        sha256 = "06d1605eb534b13e531a436292de069592c64833f958b2d7801cd7becc980298";
+        url = "https://github.com/retupmoca/p6-markdown/archive/8d36be843801855a3c29b353b5620995c683b36e.tar.gz";
+        sha256 = "f25e574ea848b61857a7ecec80d09cd89211c04fc4c0e4fa8b09860c0308ab6b";
     };
 }

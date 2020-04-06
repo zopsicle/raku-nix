@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."LibraryMake" ];
     src = fetchurl {
-        url = "https://github.com/p6-pdf/Base64-Native-p6/archive/23c93f8f9fe5031870abd1ffb7e17b7943651587.tar.gz";
-        sha256 = "0cdaf70ada67f7016ab0127ab6ee4764300156c7289b19c69c450e5a22f70904";
+        url = "https://github.com/p6-pdf/Base64-Native-p6/archive/67a0da5956d95be5bc84eba838a6f0ce08f17cde.tar.gz";
+        sha256 = "df44bceb69f27b52e521343a404d56d0ab69fbb17a96346ab3af6578a48019a7";
     };
 }

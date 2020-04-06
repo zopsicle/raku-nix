@@ -4,9 +4,9 @@
 rakuPackage {
     name = "PDF-Class";
     buildDepends = [  ];
-    depends = [ rakuPackages."PDF" rakuPackages."PDF-Content" rakuPackages."PDF-Grammar" ];
+    depends = [ rakuPackages."PDF-Content" rakuPackages."PDF-Grammar" rakuPackages."PDF" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Class-0.3.8.tar.gz";
-        sha256 = "1d563b36e11ea46f9a50a954e8ceb066a7386cefca6f3c7140d4eb850e4253c5";
+        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Class-0.4.2.tar.gz";
+        sha256 = "5304090f0a249b801c23df381d8384f94de01d88beb9e5f21dd7a13bbdd8689e";
     };
 }

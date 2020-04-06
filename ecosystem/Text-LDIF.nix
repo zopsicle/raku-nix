@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/slunski/perl6-text-ldif/archive/ebd6264f32414a331c97254c8632477da3647023.tar.gz";
-        sha256 = "568d04d7e0b51af02d3f73738dd197d75f2fa293ee709fed22a9a11903fa8d3f";
+        url = "https://github.com/Altai-man/perl6-text-ldif/archive/ce06acaa613efb41d43ac619ae491dafb30926c1.tar.gz";
+        sha256 = "b7b21b97ba9f00e8b207a024e0c114adb8011a8cae0955bc3006a7326ae77dd0";
     };
 }

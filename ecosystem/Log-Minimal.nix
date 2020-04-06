@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Grammar-Tracer" rakuPackages."Terminal-ANSIColor" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Log-Minimal-0.0.1.tar.gz";
-        sha256 = "5725e70d619252e05bd688499760f44434f42ad6e46190d95a4f0c586b89467b";
+        url = "https://github.com/moznion/p6-Log-Minimal/archive/3d3b8d481b84b1babdf7b27d1cc87f9b7ddbace0.tar.gz";
+        sha256 = "dad9fa74adbfb24d15ca6bd450e0b9e88a6cbd3a1e8b50f8e1e7f09df662ddd8";
     };
 }

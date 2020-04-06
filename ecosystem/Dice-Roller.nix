@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/jamesneko/dice-roller/archive/f6298b61a722b4560cadbd00d863ec4fed10f90d.tar.gz";
-        sha256 = "31e3872a202570e77c9f6b987497618de3bc29018e77c073783035c15557eac1";
+        url = "https://github.com/jamesneko/dice-roller/archive/a14e827f8f4d8bd72ce5a25e970a2a71e6b77d68.tar.gz";
+        sha256 = "81d57d9598e2f08bd138381958a9feda521c5fdc3657fdbfb2a4f724999cddb1";
     };
 }

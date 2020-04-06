@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/POSIX-getaddrinfo-0.0.1.tar.gz";
-        sha256 = "bb1ee9744d5c4f38bbc6a5e38513d6c28d2bb8944720d795d5ccc56cdeedfb4e";
+        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/POSIX-getaddrinfo-0.1.2.tar.gz";
+        sha256 = "30fc4ca05f85ce0e3a749b9cbc8e9bdf0086ea9fa423b5568af709b6bd6c1c11";
     };
 }

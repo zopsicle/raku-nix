@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Math-RungeKutta" rakuPackages."SVG" rakuPackages."SVG-Plot" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Math-Model-0.3.tar.gz";
-        sha256 = "58dceeadf82d7814b75d903786da2d9f8ee35f6a0e7dc2d467e6d6984b7313ec";
+        url = "https://github.com/moritz/Math-Model/archive/cdc618c6c028a6dd9308bd2de0df9f10afd095a3.tar.gz";
+        sha256 = "210c0a1ca113d1319726bbd71ce79950f36a92097703dcc92705b851b660555d";
     };
 }

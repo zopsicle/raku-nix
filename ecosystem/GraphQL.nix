@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Fast" rakuPackages."Text-Wrap" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/GraphQL-0.6.1.tar.gz";
-        sha256 = "e7364418e91b2cb44a280a3d40e2de2874a69a266403b2d1ab46008ab2a41058";
+        url = "https://github.com/CurtTilmes/Perl6-GraphQL/archive/ad213b6bab7a8542b0d0b41dd31cbe576ce120e5.tar.gz";
+        sha256 = "0062d9162b087338bfa6b6b765373afd38b7ca3ab4472953f8396c5a11724611";
     };
 }

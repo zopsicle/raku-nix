@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/EventSource-Server-0.0.4.tar.gz";
-        sha256 = "24a46ac9779997fdff7c4b7ea32e3ec1b03ae11782e623f75175af0ca5ca6ede";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/EventSource-Server-0.0.5.tar.gz";
+        sha256 = "71e9efa37c760263433c0deb0f98375f84c3430820a6f38fae48d5fc1226d644";
     };
 }

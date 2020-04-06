@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Temp" rakuPackages."IO-Blob" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Stream-Buffered-0.0.1.tar.gz";
-        sha256 = "c278dbdbbe5283220f3e8f30ed9c60abad94744bb9459b1efa82510a1b643170";
+        url = "https://github.com/moznion/p6-Stream-Buffered/archive/e048700db6bb063c03c0a51cf8313a36f9565bf1.tar.gz";
+        sha256 = "b9b0697d2b387333d7602755e6ba0dd5f072ce68f0fd233b24f5393747a0ab56";
     };
 }

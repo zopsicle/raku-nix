@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/thundergnat/Sort-Naturally/archive/d703e455c4841e1ae66858b53786c3148d67886b.tar.gz";
-        sha256 = "12ef0e016da3c08a92480e9fbbb2e44a43b70298083a21d19c21cc811f0171ac";
+        url = "https://github.com/thundergnat/Sort-Naturally/archive/4c80abd905a8c8ef5631fd0d82c946b6a631d18e.tar.gz";
+        sha256 = "0ca1c1cc49e7783b9f5ada4385828b3a6531655c354fca4d1595b3679b68b42f";
     };
 }

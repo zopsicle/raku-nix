@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Readline-0.1.5.tar.gz";
-        sha256 = "2eee181044b7492c1242f0ac23e42ef407cc1ca6936a1b1a18ba435e8206744d";
+        url = "https://github.com/drforr/perl6-readline/archive/054a8e9461e79473099b2e75e4a5e0797adae3a7.tar.gz";
+        sha256 = "e1f31dbe60d3bad5bb87d4152d32979c0a60d8ec509470732b4c848a5580c2d8";
     };
 }

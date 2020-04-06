@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."IO-String" rakuPackages."Linenoise" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Path-Router-0.2.tar.gz";
-        sha256 = "9f13792a1b7945df96c18fe55e72eca7b76bdc69be7ca91934b4303f9681e21d";
+        url = "https://github.com/zostay/p6-Path-Router/archive/73073e38b0b11f3782986e8682404b92a816d71d.tar.gz";
+        sha256 = "228021272e69da045643dc3fca1e540b75779ec7962f0649400a6309189d039d";
     };
 }

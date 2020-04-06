@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/masterduke17/text-diff-sift4/archive/e649f8c32e045c837212dc9ed14221c5df058427.tar.gz";
-        sha256 = "1d5f41e76b0ae9334c0b9d213666c1e201e2f800b3439c66c8db21f4c59d58fc";
+        url = "https://github.com/masterduke17/text-diff-sift4/archive/72179db4fb3d6ce4ead38f9107d909592695b61f.tar.gz";
+        sha256 = "872a0a90d0455602347f88bd5db5a00711ccef8438eb05cd41cc9595eb9a722f";
     };
 }

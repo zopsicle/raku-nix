@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/SQL-Lexer-0.2.2.tar.gz";
-        sha256 = "9606535b4ef325d2b413bc54c9628fc5a7e89747e7ed7f7eec247de96b8407ea";
+        url = "https://github.com/dmaestro/SQL-Lexer/archive/28c2f3bcbcb3293f37b42ad7ff9c009a4e3e6414.tar.gz";
+        sha256 = "7c2bae609e71a7d2175d397e72f5ad495941bf6ca305152bd4bcd532b436c315";
     };
 }

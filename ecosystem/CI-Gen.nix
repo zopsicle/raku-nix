@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Config-INI" rakuPackages."Getopt-Long" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/S/SH/SHLOMIF/Perl6/CI-Gen-0.0.1.tar.gz";
-        sha256 = "1b8cab18f90fddfdcff98681f64cc63e0a33875b5c3adc2ca61c62f07155112b";
+        url = "https://www.cpan.org/authors/id/S/SH/SHLOMIF/Perl6/CI-Gen-0.0.2.tar.gz";
+        sha256 = "5230b07d8f8d60b566c5e2eb5a1d56799778c336f241cc481730dc44aae79528";
     };
 }

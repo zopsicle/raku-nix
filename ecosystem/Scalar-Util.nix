@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.6.tar.gz";
-        sha256 = "8dbb3197369e71e1e3129d451e1b530b19f6b06785526f4bfa94aed885bea167";
+        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.8.tar.gz";
+        sha256 = "8ec09c7ed6687b51e63da289b0fd0c9453d28f734421955b6881daca362b0bc7";
     };
 }

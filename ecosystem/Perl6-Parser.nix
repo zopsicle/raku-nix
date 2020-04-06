@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Parser-0.3.0.tar.gz";
-        sha256 = "2209cc6e0bd3cac9c5f70272b40d1c6bdbd6242457b298338e7f6eb857d59b9e";
+        url = "https://github.com/drforr/perl6-Perl6-Parser/archive/d1c52d974feed8d887dbd3376f4b141e2e7f2c42.tar.gz";
+        sha256 = "d46c390fbb1c6f2a89ca283b526c6f0713939d17b1d42327abaff29d1a84ce7a";
     };
 }

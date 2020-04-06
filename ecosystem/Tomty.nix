@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Directory-Tree" rakuPackages."Sparrow6" rakuPackages."YAMLish" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomty-0.0.7.tar.gz";
-        sha256 = "beb1aa9b6524c7d6a4f7a3a24ad55097d63515baab9a8e39c1ecd1907d6f1023";
+        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomty-0.0.9.tar.gz";
+        sha256 = "6de02ab99090aa24a9800570300280b41a38eddd3329b2de9cb88105544f8ccf";
     };
 }

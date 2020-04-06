@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."FileSystem-Parent" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-libs-0.2.1.tar.gz";
-        sha256 = "27fa3aac10b87aa9ee7d5fafbed317b171a0451b94868cf98f17a790671f4ee7";
+        url = "https://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-libs-0.3.0.tar.gz";
+        sha256 = "f86da1b05deb6acf505d6293b169ce9f3a5b03194886589b8693695fdfa3e87b";
     };
 }

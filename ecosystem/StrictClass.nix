@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/StrictClass-0.0.3.tar.gz";
-        sha256 = "e5fc624c37adf87128bdc3c9089155fbd1d7d941ddd357bc6227c358c476e57d";
+        url = "https://github.com/ufobat/p6-StrictClass/archive/a411f4cec5b53a69d2278654054f1e24d9ff30a5.tar.gz";
+        sha256 = "27df37b7dd8c27b8dc89059c049e9217534e0cdb8e46f8eca9b3a47cca284fac";
     };
 }

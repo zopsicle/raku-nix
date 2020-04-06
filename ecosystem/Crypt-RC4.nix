@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/p6-pdf/Crypt-RC4-p6/archive/d0a170a1c7371dbdac7cb766300ed19b7e67b8b8.tar.gz";
-        sha256 = "8448636df97a36eac01a078680111d6e789c321b79f00275b025f4e7f88f9f5b";
+        url = "https://github.com/p6-pdf/Crypt-RC4-p6/archive/3534bd32f28948474a6e7fbcc48ad2adc1590ab2.tar.gz";
+        sha256 = "b5d7c9b55c51360e4e921088fc7abe9045fe9fff771d8b7d6c4861ab63ec85db";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Gnome-Glib" rakuPackages."Gnome-N" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gobject-0.15.6.tar.gz";
-        sha256 = "b6c330d8434944e8eb7058dc543a955f7522fc2943963987e7dcb35a98c89b9f";
+        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.16.2.1.tar.gz";
+        sha256 = "bd5b4b6e94fc68eaffecd508c3f2e6baa6f04895f271b71a1b05d8831eee3d06";
     };
 }

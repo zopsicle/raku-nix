@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Method-Also-0.0.4.tar.gz";
-        sha256 = "bd426fce1dedc578a1e0d2aea7fdd02b0c4c7d80c5d28ac9c708d89f6a9ba6cf";
+        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Method-Also-0.0.5.tar.gz";
+        sha256 = "89e2769c0abb22dd4b558124a75bea8fe098d2374b7e1e39ebf13fb87188007d";
     };
 }

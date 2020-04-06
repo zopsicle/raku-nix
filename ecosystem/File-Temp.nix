@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Directory-Tree" ];
     src = fetchurl {
-        url = "https://github.com/perlpilot/p6-File-Temp/archive/7f128adc5bbad8d172f87e868c52eb85339fc90f.tar.gz";
-        sha256 = "37b4ed2949a2c42baa7d14e24ff8a99792e7fc64c561b9526526bc8c136292b6";
+        url = "https://www.cpan.org/authors/id/R/RB/RBT/Perl6/File-Temp-0.0.8.tar.gz";
+        sha256 = "80f3e1ba344fadbd013f0ac3b4b653e812178b3db64deb5e6cb6dec218e3fc90";
     };
 }

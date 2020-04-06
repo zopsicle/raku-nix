@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Sparrowdo-Chef-Client";
     buildDepends = [  ];
-    depends = [ rakuPackages."JSON-Tiny" rakuPackages."Sparrowdo" ];
+    depends = [ rakuPackages."JSON-Tiny" rakuPackages."Sparrow6" ];
     src = fetchurl {
-        url = "https://github.com/melezhik/sparrowdo-chef-client/archive/d446387f109ea8073868c4703fecf70239188630.tar.gz";
-        sha256 = "fdc099d8dd4122f1e365edd5daab8241f799991571426ba93973d1df17fc5016";
+        url = "https://github.com/melezhik/sparrowdo-chef-client/archive/4f4721258c86c8205e5a4a8fa55c3a31bc0d2d3d.tar.gz";
+        sha256 = "590915fefbccc84734be222589a6590f9d8ddc58a8f3ba37bd23f5add721da28";
     };
 }

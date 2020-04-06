@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Crypt-Libcrypt" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-AnyPasswordHash-0.0.2.tar.gz";
-        sha256 = "98572e98ea35ecea4aaf432c3ec58a6df66ad4ceb657f93acf79dec145fcb5c8";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-AnyPasswordHash-0.0.4.tar.gz";
+        sha256 = "b89c4f51ce88079251060508cba14c2f686f378049dae9b6ac7d58a8a59a9ac5";
     };
 }

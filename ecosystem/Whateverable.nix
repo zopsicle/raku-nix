@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."App-GPTrixie" rakuPackages."Config-INI" rakuPackages."Cro" rakuPackages."Cro-HTTP-Client" rakuPackages."Digest" rakuPackages."Digest-HMAC" rakuPackages."Digest-SHA256-Native" rakuPackages."File-Directory-Tree" rakuPackages."File-Temp" rakuPackages."HTTP-Server-Async" rakuPackages."HTTP-UserAgent" rakuPackages."IO-Socket-SSL" rakuPackages."IRC-Client" rakuPackages."IRC-TextColor" rakuPackages."JSON-Fast" rakuPackages."Number-Denominate" rakuPackages."Pastebin-Gist" rakuPackages."SVG-Plot" rakuPackages."Stats" rakuPackages."Terminal-ANSIColor" rakuPackages."Text-Diff-Sift4" rakuPackages."sake" ];
     src = fetchurl {
-        url = "https://github.com/perl6/whateverable/archive/f645470099a5230bea2ee06251087b6cd8592899.tar.gz";
-        sha256 = "06b9d244cd48b50224b902bd7ae44d99903e33a49a1c3df60a04ca61c82b7fb6";
+        url = "https://github.com/perl6/whateverable/archive/8d160b40e763ce6f0103f6396cee69116977bb14.tar.gz";
+        sha256 = "42d818fb05862875d2f246995c6120357cd4d6c66bf9a655423dda21ef85ad1a";
     };
 }

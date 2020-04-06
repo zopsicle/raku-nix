@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/ugexe/zef/archive/v0.8.3.tar.gz";
-        sha256 = "06fzpv9xa7nglfyk3i1v64ry86gr07frvgdxwvdv7f08kgfjz60k";
+        url = "https://github.com/ugexe/zef/archive/fce324d6910e11f0f39f3a1d83e60c82b8c0cf3b.tar.gz";
+        sha256 = "0f432bd48ad4ef29088b7eff25c8210b60725adbe2c23a2ff61ce8c17b43b3d8";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."NativeLibs" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibUUID-0.5.tar.gz";
-        sha256 = "8f234c2d1cc4042f0b30a05918f08e81bca41b4043bdfa4ad092315041a73705";
+        url = "https://github.com/CurtTilmes/perl6-libuuid/archive/ad602254eb811cc7ccd5acc5d56cfb5f03501231.tar.gz";
+        sha256 = "eea3fca60d28d8d80bfbc13adc1157ed81ee22f26db3efa61e6c38f897a284f9";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."DispatchMap" rakuPackages."JSON-Tiny" ];
     src = fetchurl {
-        url = "https://github.com/spitsh/spitsh/archive/3f306f9a3bcc6ae3876887a4453c8f9cba35e95e.tar.gz";
-        sha256 = "0cd2eab9fd8ebcc3b8dfdfada94a15eaa22cf1fe547e9022848edcab351c86a9";
+        url = "https://github.com/spitsh/spitsh/archive/11b5f00757cb85320ab777cd3551ad0412c1db86.tar.gz";
+        sha256 = "162aa63ebf0f53d551003409224a95ec0bbd5469ff0f6b8648ba0c2c1a4d42fa";
     };
 }

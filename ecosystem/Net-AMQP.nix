@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/retupmoca/P6-Net-AMQP/archive/60a78b8d8e1fd2b878f68978c8d7356ab3a8f6ee.tar.gz";
-        sha256 = "1a58cb9c49456f8dfe9aa7159c861792abd20dea3efb040d275499dfc3959c08";
+        url = "https://github.com/retupmoca/P6-Net-AMQP/archive/0859532137131a6c3c3fea770129b56006cd4c4f.tar.gz";
+        sha256 = "fecb8c8fd33b06e2858aee0302153ad2f5e7ad820bb5c4a606f4115bd098192d";
     };
 }

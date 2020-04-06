@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."XML" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XML-Class-0.0.7.tar.gz";
-        sha256 = "3788cacc05f549bf7e5c7d22c0204ca68fdd90f9b4803c33b2241bf77be01db2";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XML-Class-0.0.8.tar.gz";
+        sha256 = "ed0e11b38423cec7343d8ac13da000fc3dc83c0804d2263efcda7dda077f88f2";
     };
 }

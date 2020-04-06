@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/thundergnat/Lingua-EN-Numbers/archive/08460ff1e3f8a3e95d276b1e9997db48e8c28799.tar.gz";
-        sha256 = "aeb415cf973547b298d4bafed40a209f2c81c6530cd18c46b3b6cb93dd6e1d69";
+        url = "https://github.com/thundergnat/Lingua-EN-Numbers/archive/6afa08ce221961303560f62646dd517c34ba20b6.tar.gz";
+        sha256 = "95b768b789da6f8a22fbe6c1c9b081209a5ea166b414bb09f4c02345c03ca750";
     };
 }

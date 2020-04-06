@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."AccessorFacade" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Libshout-0.0.11.tar.gz";
-        sha256 = "2d927c5e3923b3d395ab39206b0c979059e6e806e8c1c2389642b09ca3b5e9c2";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Libshout-0.0.12.tar.gz";
+        sha256 = "2023c1308c5e378903372c3d81af2d196e8ee608707ff44916914dd085047fc5";
     };
 }

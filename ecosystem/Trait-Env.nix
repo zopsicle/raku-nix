@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Trait-Env";
     buildDepends = [  ];
-    depends = [  ];
+    depends = [ rakuPackages."JSON-Tiny" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Trait-Env-1.0.1.tar.gz";
-        sha256 = "3fd6ad888e73f4b771c38cde682142be6884049e8655d4f8bee8782204f4e01b";
+        url = "https://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Trait-Env-1.1.0.tar.gz";
+        sha256 = "9a28f87038c7296995875bf2c2549d3e8b65203cfbd7fb12764a846f4fab27e9";
     };
 }

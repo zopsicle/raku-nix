@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."HTTP-UserAgent" rakuPackages."IO-Socket-SSL" rakuPackages."JSON-Fast" rakuPackages."URI-Encode" ];
     src = fetchurl {
-        url = "https://github.com/matiaslina/perl6-matrix-client/archive/ec4393cb81952fffa2273e313818a57c9611c5a2.tar.gz";
-        sha256 = "a57bd1398853dcfcb281a5ae6071f341f9017f82f93789fe40da054892028d30";
+        url = "https://github.com/matiaslina/perl6-matrix-client/archive/b83f673c5cef4a856e77a185b212b34bae2e8aae.tar.gz";
+        sha256 = "0fc350e86c2777d158cd27b958a9cfbf15b5cf4b00f4d8381de01f49db6fe995";
     };
 }

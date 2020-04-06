@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/LLFourn/p6-CompUnit-Util/archive/fdbdc605663d951c43cd3229411d1860f725b0e3.tar.gz";
-        sha256 = "cc42a64ca482d73ae5e8a677e6d345ebad2809236d14c16c9f7df1ac61e10fa4";
+        url = "https://github.com/LLFourn/p6-CompUnit-Util/archive/39ffd1de0c768881f18aef2a6a225a998e194965.tar.gz";
+        sha256 = "8ccbcf0203206f3b6a5ba4150585bc00f917e22a6e1a4b6594af6f7d79606337";
     };
 }

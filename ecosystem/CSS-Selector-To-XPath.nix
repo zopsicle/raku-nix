@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."CSS-Grammar" rakuPackages."CSS-Module-CSS3-Selectors" rakuPackages."XML" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Selector-To-XPath-0.0.5.tar.gz";
-        sha256 = "d700764d0957077962d4afd22e3fcaeaf8ab015640d85bfe7a30bf39f8c2e6b7";
+        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Selector-To-XPath-0.0.6.tar.gz";
+        sha256 = "17f4e2fe52415292b7e1440912d55ced675a9212060c625e768f9ecfb4004dc2";
     };
 }

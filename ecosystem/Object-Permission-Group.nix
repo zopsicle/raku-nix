@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Object-Permission" rakuPackages."Unix-Groups" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Object-Permission-Group-0.0.3.tar.gz";
-        sha256 = "f5a9e22e655db3886b7b18852ad1838c2dfbfbb12a4d0ee409f0ebb721c28628";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Object-Permission-Group-0.0.4.tar.gz";
+        sha256 = "55d98515120bcdd5a19f4709c4dacb3a65d2b56d9b867a58c85119fd811f1d19";
     };
 }

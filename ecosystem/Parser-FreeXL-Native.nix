@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/spebern/Parser-FreeXL-Native/archive/e97a6570c9f6ddffa287d6583c05960dbc47deb3.tar.gz";
-        sha256 = "9f211ce79faf22201a4f96541f714f8ecd6723204aff18e68036739502882410";
+        url = "https://github.com/spebern/Parser-FreeXL-Native/archive/a0e037612cd6f3cc66c68447f390004be928073c.tar.gz";
+        sha256 = "f9891c31e9ed49e9b1e9ea58762eefc6be477332edbf6b3554444a792e2c1a5f";
     };
 }

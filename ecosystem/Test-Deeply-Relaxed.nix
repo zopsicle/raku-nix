@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed/archive/bdc0e1316ee14f70ad039fd94133a0b48631733e.tar.gz";
-        sha256 = "0a4e27b7527285313edfa6e89ac9de9ab2449de91d8dccbe9cf25bc741e8be25";
+        url = "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed/archive/efda9fb38e299b878baa9b7402362cb36f844a39.tar.gz";
+        sha256 = "7d63e732ae04383a22bdcc8eb82eaa5f534be0cff980717278ba04ae57dbe905";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."CCLog" rakuPackages."Cairo" ];
     src = fetchurl {
-        url = "https://github.com/ccworld1000/CCChart/archive/8c4787b6f2dc76932d4ef4c5a713910cb0f0e7b9.tar.gz";
-        sha256 = "92075f672c94bf4f40d82a9b250064e5f73371b2562f5ae487243ebe3a540c69";
+        url = "https://github.com/ccworld1000/CCChart/archive/4bbd8db326466c5464573b5b53a42f03537c8817.tar.gz";
+        sha256 = "74933c1a50ae61fd17ec4c367019f5348873b6add185accce303da7fce134697";
     };
 }

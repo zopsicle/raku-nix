@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/Module-Pod-0.9.1.tar.gz";
-        sha256 = "c55b812d64c8f3821a2615a849a8d13bbe2ca7d767f7066bdfb031df5849f126";
+        url = "https://github.com/dmaestro/Module-Pod/archive/86966b1d58789368a8ba1b0522548b0aa2a4e53a.tar.gz";
+        sha256 = "55a310a9b1783d6345e3b81255da779b86a4fba5d22db14bbf99b69ae31e34b7";
     };
 }

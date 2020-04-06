@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Distribution-Builder-MakeFromJSON";
     buildDepends = [  ];
-    depends = [ rakuPackages."System-Query" ];
+    depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/N/NI/NINE/Perl6/Distribution-Builder-MakeFromJSON-0.4.tar.gz";
-        sha256 = "66bc2a4ade0eedaf7aff3ee8b5b31575062096f8750e2d186da1a5201037572f";
+        url = "https://github.com/niner/Distribution-Builder-MakeFromJSON/archive/db586206d7c4d62a4d5033be3a23e42b1e0e48a2.tar.gz";
+        sha256 = "d19a2087e9a3f081e75295ecd63d2a8d55c2ee02f0e663d402a7b79bb290a934";
     };
 }

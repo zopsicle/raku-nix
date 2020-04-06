@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Terminal-Table" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Getopt-Advance-1.1.4.tar.gz";
-        sha256 = "0b76d4daf0acb113989e0b243b78f918579661857b25d2c65a545988e6cb17a9";
+        url = "https://github.com/araraloren/perl6-getopt-advance/archive/37fed2daa0c085db52f3b1b7a51d9bd27cd64ac8.tar.gz";
+        sha256 = "27ee898d75843ef9dcae1d15a95d5b5223e83e0ba23845c5ff4dd708252e0ce0";
     };
 }

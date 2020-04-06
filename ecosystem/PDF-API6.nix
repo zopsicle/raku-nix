@@ -4,9 +4,9 @@
 rakuPackage {
     name = "PDF-API6";
     buildDepends = [  ];
-    depends = [ rakuPackages."PDF" rakuPackages."PDF-Class" rakuPackages."PDF-Content" ];
+    depends = [ rakuPackages."PDF-Class" rakuPackages."PDF-Content" rakuPackages."PDF" ];
     src = fetchurl {
-        url = "https://github.com/p6-pdf/PDF-API6/archive/cdb0999dac4fc5e518157e2758397351a5a261be.tar.gz";
-        sha256 = "76d01ecbeb4151aa19dc9a4c051421ca0b84b21b57eba40e56e049d35b960351";
+        url = "https://github.com/p6-pdf/PDF-API6/archive/afe8dd8dd9272a9d794a961f9bc13aafe8719d4a.tar.gz";
+        sha256 = "48a3c37402f7cdc9be4b2a229616eb246f001517fd3a9f781fe33afc42f0c91a";
     };
 }

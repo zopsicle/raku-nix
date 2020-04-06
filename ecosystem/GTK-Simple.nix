@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/perl6/gtk-simple/archive/aed9855fb9b927a6b7ba30bfe814b550b6f04085.tar.gz";
-        sha256 = "29c17853b35b46e08b26fcad424e1332ae9c9b49896e12005bc44201299e48ee";
+        url = "https://github.com/perl6/gtk-simple/archive/7503760cb06e8aa4eb6a50991d62a0a94e62b289.tar.gz";
+        sha256 = "8ea6e25f7a7323bd60dd48a8a1ac2fe1713453a58ff94d5c773aa47f412ca855";
     };
 }

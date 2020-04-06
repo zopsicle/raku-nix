@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."DateTime-Format" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-0.0.9.tar.gz";
-        sha256 = "9ca127f45db2dd12ad3fd7d893908dc2be7b9f75f482b2bf48aa850c36d9c466";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-0.0.10.tar.gz";
+        sha256 = "b2b2a6432ce88cd1a0615d9ad8c95edb53dce2fef1098b04bc8988b271bc8943";
     };
 }

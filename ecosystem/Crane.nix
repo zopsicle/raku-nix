@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/atweiden/crane/archive/3ca8f511723bd25b5a79b3bb87047e217f084334.tar.gz";
-        sha256 = "dfd4740a3f94520dcf4264b29fe0926da1cc7a8f8831e9462c14f1807e6a1562";
+        url = "https://github.com/atweiden/crane/archive/56b82bee3667374534df427dc45db3427e034aab.tar.gz";
+        sha256 = "deadfc43548b489e01b8ed3b8b7fd152e5f7682344d199c61a1175e67db84e2a";
     };
 }

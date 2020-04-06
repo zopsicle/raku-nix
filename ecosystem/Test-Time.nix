@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Test-Scheduler" ];
     src = fetchurl {
-        url = "https://github.com/FCO/test-time/archive/54edf2245b7afb93c49ecd84e1283ce1141d7fc4.tar.gz";
-        sha256 = "1c24b98e49e0b3b0481270d60e3ab9a49b5424f22cc1c41c42c3e1780b775134";
+        url = "https://github.com/FCO/test-time/archive/df899ad1deeb2c0909fedd763da48ba120b36fb8.tar.gz";
+        sha256 = "59f92f652ef60caa0b3c653962a32a5025de9d1b17e001ecb05422d132245fdd";
     };
 }

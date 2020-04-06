@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/unprint-0.0.2.tar.gz";
-        sha256 = "9e8ed728e604a5b9a6e17d6d259035ded9f90443252b029a2c437d8473c2b05b";
+        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/unprint-0.0.3.tar.gz";
+        sha256 = "4187204e9b198da3da0227b585238c85b47075a4c90c2ca9677c9e1c7ffb3ccc";
     };
 }

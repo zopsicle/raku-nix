@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Sparrowdo-Archive";
     buildDepends = [  ];
-    depends = [ rakuPackages."Sparrowdo" ];
+    depends = [ rakuPackages."Sparrow6" ];
     src = fetchurl {
-        url = "https://github.com/melezhik/sparrowdo-archive/archive/b8322a491c23aa193b8b1d37678b0ffc4ce428dd.tar.gz";
-        sha256 = "c014ce37d6a71f4a3b1a46e7578318a60c5e6ae8e8cc527098a0b10e0c522987";
+        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Archive-0.0.2.tar.gz";
+        sha256 = "61800fbb98573e985416d9ef0de644b796826b569fd74d58a2fe38e259a271d8";
     };
 }

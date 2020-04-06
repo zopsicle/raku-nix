@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.2.0.tar.gz";
-        sha256 = "0e9248ea95930f19f175542273c14ee404aac2ae7aea2494dc9ccac796f42e64";
+        url = "https://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.2.1.tar.gz";
+        sha256 = "be0e826e6b44fe994f8fdd025540ead7fd0e067d80088f20dc47baec65ecc084";
     };
 }

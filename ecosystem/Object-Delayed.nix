@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Object-Trampoline" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Delayed-0.0.6.tar.gz";
-        sha256 = "ff3376db9428c82b9c9b428174615ac19e82d6cc71a8123fd266c3f7d4ef4b4a";
+        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Delayed-0.0.8.tar.gz";
+        sha256 = "616d106f470abd14401e448666a82cd0e1c69aa599ffb513b46217f84636ed4a";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Shell-Command" rakuPackages."YAMLish" ];
     src = fetchurl {
-        url = "https://github.com/jnthn/p6-app-installermaker-wix/archive/20366162ebfa9ce3fb0be306e0330df05c2035ac.tar.gz";
-        sha256 = "0ee41c4d903a6eceb2fee9fc5567544148075fa7e6343b1facb3ac8779957f72";
+        url = "https://github.com/jnthn/p6-app-installermaker-wix/archive/2e0629313c335ab3301c3bdf940de1b9abf061ad.tar.gz";
+        sha256 = "708d27eb88209521ed8715d6c11a036f895c2be18f91e88afd1139c6b071540b";
     };
 }

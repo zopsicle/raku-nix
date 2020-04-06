@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/perlpilot/p6-Math-Trig/archive/37c98b838b04050030a7b8e9acc71ccd1cc21773.tar.gz";
-        sha256 = "eb9a175bfb81c9d743e33c6af4c1591cc4df9b71676835fe898f2cf166eaabb5";
+        url = "https://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Math-Trig-Raku-0.3.1.tar.gz";
+        sha256 = "043fd1505cbf2c61e4d26a4e79d937abae711bee4de8592c54d8f8b83a733a43";
     };
 }

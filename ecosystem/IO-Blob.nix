@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/IO-Blob-0.0.1.tar.gz";
-        sha256 = "38bb957474453a7c7b5a8a5d1e7c8afeebc3ace4b2f522ab4fc34e86c3fdbdef";
+        url = "https://github.com/moznion/p6-IO-Blob/archive/3ea9dc15e582e5954c9707a973de0ef05427274c.tar.gz";
+        sha256 = "2231a5172af0c2067f977059356fc54620ba5e21a0ede3ec521a7f31a95ba7f5";
     };
 }

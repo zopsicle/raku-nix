@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Cro" rakuPackages."Cro-Core" rakuPackages."Net-ZMQ" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.8.1.tar.gz";
-        sha256 = "ad77c7948ba5ebac0d421db207e36e04c0ea6d134ea125e4761e0f74823e66f9";
+        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.8.3.tar.gz";
+        sha256 = "202e00dd00919a571188a6ad289bfd4e15fcfe730f757a7a8e59f5a1059799e8";
     };
 }

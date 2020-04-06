@@ -4,9 +4,9 @@
 rakuPackage {
     name = "App-Mi6";
     buildDepends = [  ];
-    depends = [ rakuPackages."File-Find" rakuPackages."Getopt-Kalkin" rakuPackages."JSON-Pretty" rakuPackages."License-Software" rakuPackages."Pod-To-Markdown" rakuPackages."Shell-Command" ];
+    depends = [ rakuPackages."CPAN-Uploader-Tiny" rakuPackages."JSON-Pretty" rakuPackages."Pod-To-Markdown" rakuPackages."Shell-Command" ];
     src = fetchurl {
-        url = "https://github.com/kalkin/Ddt/archive/103905441f43a50e31f8665cb04b026358850d7b.tar.gz";
-        sha256 = "f36fda99a18fa7c32a518dc9a30a4fbb5c076d8d2d6aa40a7189d3bef51d38ad";
+        url = "https://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.3.1.tar.gz";
+        sha256 = "770051556a8b0e2f2f5a126d33a393cfc694b7abb80e099aa9260351721d8647";
     };
 }

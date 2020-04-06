@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/thundergnat/Prime-Factor/archive/791723842e8462e47e633e4066f55505522db5f3.tar.gz";
-        sha256 = "f284b321fcaa79013d3c1fe0c9a3848263893b4145fe6772c46bb15a93f18097";
+        url = "https://github.com/thundergnat/Prime-Factor/archive/230d394f8115186acdcd406e737a7f79602f9f70.tar.gz";
+        sha256 = "689fd6fd222d3376d2d9effa96f9e50f3d0d5bedc06fd73d450da9c6ad2ce011";
     };
 }

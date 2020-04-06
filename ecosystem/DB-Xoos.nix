@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."DB" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/Y/YN/YNOTO/Perl6/db-xoos-0.0.13.tar.gz";
-        sha256 = "40a9d418c9e9a98daea2cb6f069e7a42927d1a32933c42b9a2ab321a747cb5ed";
+        url = "https://github.com/tony-o/perl6-xoo/archive/389dc99da9d8104f473a63ffc49d725d369412d5.tar.gz";
+        sha256 = "243c25245ce48ceee54416a175a117caa04ced7a12cd5439605a3712537b9336";
     };
 }

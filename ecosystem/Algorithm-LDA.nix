@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LDA-0.0.9.tar.gz";
-        sha256 = "e2968b4d1ddc1a44e4d889dbd01717ec78c906c3eed7fc8bd2332cefed3cd050";
+        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LDA-0.0.10.tar.gz";
+        sha256 = "d5405b9d98f08f78f910c4f3ed849311809e4806146290087a2ab45cd6e512c4";
     };
 }

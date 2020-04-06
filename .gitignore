@@ -1,4 +1,4 @@
 /example/result
 /result
-/sqlite
-/sqlite.*
+/sqlite.sqlite3
+/sqlite.sqlite3.*

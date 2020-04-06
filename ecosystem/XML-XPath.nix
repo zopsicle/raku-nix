@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Test-META" rakuPackages."XML" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/XML-XPath-0.9.3.tar.gz";
-        sha256 = "c7865de93c0a2d224287d442e9401f385e5ea39a4a6cd0ba45d107a6d8e69471";
+        url = "https://github.com/ufobat/p6-XML-XPath/archive/be346ab137c977ea7a9e9006db953692ea807147.tar.gz";
+        sha256 = "a99a82fffee550650df82dd14fd58eeb67d35f210084f37e9fdae7bb2cad187f";
     };
 }

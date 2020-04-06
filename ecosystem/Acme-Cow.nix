@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/hankache/Acme-Cow/archive/ef57ea8524af67e1492703519f3cbad59d95b08a.tar.gz";
-        sha256 = "2664c3b4381c58c584683171a4840e937665ac3ad9560d4f8e3daa6a6ad5dac8";
+        url = "https://github.com/hankache/Acme-Cow/archive/6dd40f29b2dd91e87606245989d21b59f758bac8.tar.gz";
+        sha256 = "4df8cbfba15144ce0d24d7c290652cf5c3730f2d925aa136e7d4e4efb1dd4b64";
     };
 }

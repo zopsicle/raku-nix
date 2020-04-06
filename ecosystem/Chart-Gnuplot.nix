@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.15.tar.gz";
-        sha256 = "9b72778991a4a91d904e0a929f23529b44f0b00f31790bfc5bbd96daed4b0ed4";
+        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.17.tar.gz";
+        sha256 = "5bd6d40143628cb8653beef5c41926aa46fe13c377cb31cc576cba058d9a88f6";
     };
 }

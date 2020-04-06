@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Crane" ];
     src = fetchurl {
-        url = "https://github.com/atweiden/config-toml/archive/99ba92036de046f20703e9aaf9e3147487f20dbb.tar.gz";
-        sha256 = "b6651364aba310e4099ea22ff6d62cd0bbf85410032845599d5668bce9272d1c";
+        url = "https://github.com/atweiden/config-toml/archive/5a6dbd31340629d9bf53af230b7dbd6ac3faa673.tar.gz";
+        sha256 = "6e86d8d6a9ad25e5f37e2521a43fc5e659b25da799721911de2c895465434853";
     };
 }

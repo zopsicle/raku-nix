@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AL/ALLSOPP/Perl6/HTML-BoreDOM-0.0.6.tar.gz";
-        sha256 = "579a81e1578af9be7a15383c0be72aec0a434af9c6650d8a1af12872b6f5f570";
+        url = "https://www.cpan.org/authors/id/A/AL/ALLSOPP/Perl6/HTML-BoreDOM-0.0.7.tar.gz";
+        sha256 = "b4fb3e42d66899d8d5b1fe10d78fc5545a33099cac4a53f4ff9e34a5acbf1093";
     };
 }

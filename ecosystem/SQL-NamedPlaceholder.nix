@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/SQL-NamedPlaceholder-0.1.1.tar.gz";
-        sha256 = "9f057807f1eb800511e8a9ab5d1ae5e856e5918093040027074a9662799a7df5";
+        url = "https://github.com/astj/p6-SQL-NamedPlaceholder/archive/f993def2b0d84b6a06596be8bd5d73157644065c.tar.gz";
+        sha256 = "39c23e27ac827622dd9bacdfaf158df8230727b18dffa1be0a3b50116cca4496";
     };
 }

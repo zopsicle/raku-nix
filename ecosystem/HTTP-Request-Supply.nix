@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Request-Supply-0.2.0.tar.gz";
-        sha256 = "277b8df9ae9253384d3ebadce571f89e6dfb365cf4a2054a5a265407eb9e21c1";
+        url = "https://github.com/zostay/HTTP-Supply/archive/5948177a2cd2bbeb6d858e8a2b1858ae85da303c.tar.gz";
+        sha256 = "14898dfa8886cb50d463d242094c72602842d223896049f3a1d3d7e113eb7f0b";
     };
 }

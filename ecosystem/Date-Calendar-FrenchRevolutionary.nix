@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Date-Calendar-Strftime" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.3.tar.gz";
-        sha256 = "1cee1b6fe3c769098dd92136dbf15e8a0098b0a4a559d954b29051f374b3ff39";
+        url = "https://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.4.tar.gz";
+        sha256 = "008e22af77f677ddc432968137794f81716e0af93a0b69f93ebb814016448555";
     };
 }

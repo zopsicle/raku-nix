@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.1.3.tar.gz";
-        sha256 = "0a885dc0e46b9a5e80ba233de0b2d36e9f4ca2c27503713b2889e5dff9cc5edb";
+        url = "https://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.1.6.tar.gz";
+        sha256 = "380d4bc821c89965e70bf8b291a37a962db1abfc42f8f344b0ff68b4cecbbb1b";
     };
 }

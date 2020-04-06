@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.15.tar.gz";
-        sha256 = "6c0245398348671ee3d3dc8054c978713ad46de1fc31f77e35cf1ea45724dbf0";
+        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.17.tar.gz";
+        sha256 = "7248c29e19bbc93048540290ec5324249cf2afe1e0ba6fdf9ef7bdbd42a177a4";
     };
 }

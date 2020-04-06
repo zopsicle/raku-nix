@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/N/NI/NINE/Perl6/CompUnit-Repository-Mask-0.0.1.tar.gz";
-        sha256 = "daeed582a492608db70c23c638dcd7e7a052ebbbc5ee5e7360d20a19e0149ad2";
+        url = "https://github.com/niner/CompUnit-Repository-Mask/archive/760679f18b915181a1ad2d7073baf3a93f735714.tar.gz";
+        sha256 = "4e8952681f473ea23af23741b0a9d75411b44feab7e36d729e51166cb8e0709c";
     };
 }

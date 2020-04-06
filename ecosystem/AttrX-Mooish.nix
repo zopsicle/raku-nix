@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.7.0.tar.gz";
-        sha256 = "8e60b65b4aca18306802ca2ebc140fca93886ed4549c800b90c7fd93c349ca90";
+        url = "https://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.7.3.tar.gz";
+        sha256 = "3eeb6dc1f87fe72f0599ce2bc72729073c49e53c1f2350af96e6ec88fde20669";
     };
 }

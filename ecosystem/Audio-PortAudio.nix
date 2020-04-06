@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/Perl6-Noise-Gang/Audio-PortAudio/archive/a07dd3d9598ece3c9db28c58d2ad0f6195871990.tar.gz";
-        sha256 = "4888ddd924609aca7f78aa4bcbe4ae542072bf0046788960f6a64c30a75df971";
+        url = "https://github.com/Perl6-Noise-Gang/Audio-PortAudio/archive/63e5d438bb6588090bdd041f9ef054e7d8ab5f88.tar.gz";
+        sha256 = "88847656c4456c41dbdd27b8acf8a580e68f1c25844ebabfa6344015d545b6e1";
     };
 }

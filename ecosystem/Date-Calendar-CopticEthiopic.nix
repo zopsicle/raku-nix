@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Date-Calendar-Strftime" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-CopticEthiopic-0.0.1.tar.gz";
-        sha256 = "f0e9aee502c40fe1fb8211770e97c27a238f2a3682e2c2a32d7ad0790178ec59";
+        url = "https://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-CopticEthiopic-0.0.2.tar.gz";
+        sha256 = "7193d578abe36162709739d28dc30968387fc90571aa91c59c38d50adc5969cc";
     };
 }

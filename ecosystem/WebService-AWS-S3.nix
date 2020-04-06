@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Digest" rakuPackages."Digest-HMAC" rakuPackages."HTTP-UserAgent" rakuPackages."IO-Socket-SSL" rakuPackages."JSON-Fast" rakuPackages."Test" rakuPackages."URI" rakuPackages."URI-Encode" rakuPackages."XML-Class" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/WebService-AWS-S3-0.0.2.tar.gz";
-        sha256 = "8eaabeeec4342f596746152406ad565d742f43764f3185ab85a91a1c5c1e4ca0";
+        url = "https://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/WebService-AWS-S3-0.0.3.tar.gz";
+        sha256 = "3683daae6ec9b8702cbc0a62cb3c3caf4748ad5b1bea1e1f447d60599c7b3f43";
     };
 }

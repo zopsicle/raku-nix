@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/DateTime-Monotonic-0.0.4.tar.gz";
-        sha256 = "d5bb23e69347be368c37a1a611395e566ae56f4e13913e238557eebb16746932";
+        url = "https://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/DateTime-Monotonic-0.0.6.tar.gz";
+        sha256 = "a8886956c50622e76aadb123bf27157d0f0960c9ef769d1661be10862c587bbd";
     };
 }

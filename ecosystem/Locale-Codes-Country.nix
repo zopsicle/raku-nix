@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/PowellDean/Locale-Codes-Country/archive/0e58d95e10f500abf4904de6b45b049e5ab21181.tar.gz";
-        sha256 = "a120a814f7c0f3ae8780953b8238f521ac4258911106e59836010c3fe58938dd";
+        url = "https://github.com/PowellDean/Locale-Codes-Country/archive/117fc79fd573e3d51a028bc788d35ed4b6247f86.tar.gz";
+        sha256 = "69097e372fd2cecd73b1ddf8d8f0d1d29878ceb17192740e26638b324b92379c";
     };
 }

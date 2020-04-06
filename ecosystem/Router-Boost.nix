@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Router-Boost-0.0.1.tar.gz";
-        sha256 = "7f13be9af4cff948d51f69b690317adefc42509f2c2290120b81107412023ec5";
+        url = "https://github.com/moznion/p6-Router-Boost/archive/902a28dfef437e7e776dae79da2c00baea045827.tar.gz";
+        sha256 = "2d2096853c42077220282a4dd3c06294f4762e27de8cae08ce79fdcd99037a33";
     };
 }

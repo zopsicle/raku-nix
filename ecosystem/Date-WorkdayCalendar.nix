@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/perl6-community-modules/Date-WorkdayCalendar/archive/ee9f9036033e40336a004a3706699062ee7af326.tar.gz";
-        sha256 = "c957f55649b4dcf3faabf55d59506c5a0749af740d68128521110ca08aac79ec";
+        url = "https://github.com/perl6-community-modules/Date-WorkdayCalendar/archive/b4c496c367c17359816dafc3f24bcb72ff054d55.tar.gz";
+        sha256 = "4d187122139454e152abc32aa980430e028db51dc5b443321eb1ff0d48add8d3";
     };
 }

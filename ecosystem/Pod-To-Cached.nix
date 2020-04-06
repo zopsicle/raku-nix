@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Pod-To-Cached";
     buildDepends = [  ];
-    depends = [ rakuPackages."File-Directory-Tree" rakuPackages."JSON-Fast" ];
+    depends = [ rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://github.com/finanalyst/pod-cached/archive/4693592a8c6f75db7c29f13b2ed8b249b697e7e9.tar.gz";
-        sha256 = "e7e132c12f21392db420015d727705e6ac4778b8c0593d569a6e4dd3c6a4e3c2";
+        url = "https://github.com/perl6/Pod-To-Cached/archive/c155d4e7ac01a34c7ed44216cd5fb58716a413e7.tar.gz";
+        sha256 = "296a8004a77171811d63a6f46a20952fcc6b69887861052522dd95941641a7dc";
     };
 }

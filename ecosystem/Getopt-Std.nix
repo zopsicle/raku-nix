@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/ppentchev/perl6-Getopt-Std/archive/8fc26c84f37b718199c3a39bde0bb76516ffcbf2.tar.gz";
-        sha256 = "85d85328568bd90c00cf86041ac86f4371b3de719557eb63529d718d85140d95";
+        url = "https://github.com/ppentchev/perl6-Getopt-Std/archive/eee6dd26890bbf3d92154c1cee237cfd316f854d.tar.gz";
+        sha256 = "b32487a6831a2b339c289f91807e199705ac79d60fcd1484b532e7a3c0d739e0";
     };
 }

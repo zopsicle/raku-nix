@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Temp" rakuPackages."HTTP-Server-Async" rakuPackages."HTTP-UserAgent" rakuPackages."Test-Util-ServerPort" rakuPackages."YAMLish" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Test-HTTP-Server-0.5.0.tar.gz";
-        sha256 = "089313f2b64d315061cdec3f197085236647b223b83d34339d6b7d57ff5ef01a";
+        url = "https://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Test-HTTP-Server-0.5.1.tar.gz";
+        sha256 = "7d8b347fcff499e85257ce2a4c406c7802f1709c956fedfd3654232408d44ec4";
     };
 }

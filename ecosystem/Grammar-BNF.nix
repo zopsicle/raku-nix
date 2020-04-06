@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/tadzik/Grammar-BNF/archive/0e0f8d21d1eca7889c2d41bebe3c14d44b0733c5.tar.gz";
-        sha256 = "e5e3a1802b13470d2497e6e07844db1e22e5f6bec54d0060c14c21a4525d0f85";
+        url = "https://github.com/tadzik/Grammar-BNF/archive/2e34618e0bfb712ce1eb569abd0c134396d4967d.tar.gz";
+        sha256 = "7b2efffb488dd701e16a0b96778d17ed5cf46e5d66c37267b149a82c518d7752";
     };
 }

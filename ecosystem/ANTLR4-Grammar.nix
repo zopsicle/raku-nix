@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Test-META" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.6.2.tar.gz";
-        sha256 = "1996e1eabc9dbf2835ff7f793a75d6688088fd95e19cde460d620d81f6ff7873";
+        url = "https://github.com/drforr/perl6-ANTLR4/archive/ffa588bd94ccf02660a5b05c16b2199f9d58cf89.tar.gz";
+        sha256 = "2fed6faaa6c4919ec297cb33691e012365d1cf10faa40c20bec826ca13182062";
     };
 }

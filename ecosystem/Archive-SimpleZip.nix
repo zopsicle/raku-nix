@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."CompUnit-Util" rakuPackages."Compress-Bzip2" rakuPackages."Compress-Zlib" rakuPackages."Compress-Zlib-Raw" rakuPackages."IO-Blob" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Archive-SimpleZip-0.2.0.tar.gz";
-        sha256 = "2fb9a70b09a113f10f03c073bdc96146bb0dc509c920e6724240b4d7d4c97592";
+        url = "https://github.com/pmqs/Archive-SimpleZip/archive/50ac4e0c876e95dbc167ecf295c52e3028662452.tar.gz";
+        sha256 = "d497debacff99245e76f3f7c096715d97d6729da9282921b65ea94484be82da0";
     };
 }

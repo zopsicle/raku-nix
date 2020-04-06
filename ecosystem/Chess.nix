@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/grondilu/chess/archive/3dc93dc21e69c8c5e3193578ed555b4ec218a8b8.tar.gz";
-        sha256 = "93d6979782688ffedb51831617bbab145036ede9cddd3a04a22c82924e15f09e";
+        url = "https://github.com/grondilu/chess/archive/e411908b2d26af86e89e8ebb355ea8d59559bcdc.tar.gz";
+        sha256 = "e629776a5f6cf7970fbb77bbb0269048cb1445f63e1ade4e18795cfa07e8e0f9";
     };
 }

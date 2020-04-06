@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Config-Simple" rakuPackages."Sparrow6" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.1.1.tar.gz";
-        sha256 = "b3aecccdad8f20b1cc044a9b435886e66ca3193fdfe794c0ee77168d887bd380";
+        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.1.4.tar.gz";
+        sha256 = "53d33ca97a4e38164139090c29428bc0a0e83389e8a962d034588bb160b280d2";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Base64-Native" rakuPackages."Compress-Bzip2" rakuPackages."Terminal-Readsecret" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/KHPH-0.0.9.tar.gz";
-        sha256 = "2e6882139f8c63b83ea8e2e02498de2edc35b51bba87f8ac55daa357454f7b83";
+        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/KHPH-0.1.1.tar.gz";
+        sha256 = "68fd3dd1a573ad197591a2c3dfb62efe54b027c3aae8f7cba4d375c7d8bcff05";
     };
 }

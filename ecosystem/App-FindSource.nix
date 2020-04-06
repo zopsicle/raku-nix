@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Getopt-Advance" rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/App-FindSource-0.0.6.tar.gz";
-        sha256 = "f4084fe3b67ede9c9aa0fb5946aa943edae6106470dc651a304d33aaa0b9c0b5";
+        url = "https://github.com/araraloren/perl6-app-findsource/archive/2a10109a83d20600ea57fe048320052d15a6a2fc.tar.gz";
+        sha256 = "788ad3898a6fa8e721ee2f826cb12804928bbcc8748e34dacbb29b6d9711e83f";
     };
 }

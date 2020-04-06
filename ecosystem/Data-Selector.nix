@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JD/JDV/Perl6/Data-Selector-1.02.tar.gz";
-        sha256 = "e97c56a04b9158f1ed2611359454a72751898c652d58168a9dad9fc1b90f35a4";
+        url = "https://github.com/jdv/p6-data-selector/archive/b62b44b15b1b96dec968a54958863c742d489b95.tar.gz";
+        sha256 = "c1bb4cb3f5d3d04d319d60b627480da674edb3ecb6a8ca82a4144222781dfcdd";
     };
 }

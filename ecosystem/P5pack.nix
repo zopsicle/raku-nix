@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5pack-0.0.9.tar.gz";
-        sha256 = "89b2bff4938145074f8825aa716cdf2a2168e51eaf82d36254c55eda15efc841";
+        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5pack-0.0.11.tar.gz";
+        sha256 = "ceda34c9bacc8099984bff681c8bee3ce3f6eea2640a29af44438ece6ff74799";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-2.0.2.tar.gz";
-        sha256 = "9a1841b27c3087d52fb75444650ce863cd20a2c189d7289353d797f1d9cb588e";
+        url = "https://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-2.0.4.tar.gz";
+        sha256 = "99b11a8ff59000a2be7ba4f9b8811147d8bca59d0fee58e20812ae41de934610";
     };
 }

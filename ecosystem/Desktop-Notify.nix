@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.3.4.tar.gz";
-        sha256 = "d2ccce2e0da3da327e7026574d1d4a61befc6b1661f6e896e9c777d945dd4a21";
+        url = "https://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-1.0.0.tar.gz";
+        sha256 = "cbbe1ead63707b9996eda532ee3dad1dedf4a8c8d8aa5533fb522d46d32e8acc";
     };
 }

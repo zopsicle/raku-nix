@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/thundergnat/Timer/archive/f8f545ade20db104363ff6d9f1fc50727ffea927.tar.gz";
-        sha256 = "e7ad1a9dd37673ee571ce7e26ae67c7fd209d69947f7d66cc1c13961efefe840";
+        url = "https://github.com/thundergnat/Timer/archive/3860cce81a9583462bf8afbc7583fea7381eb3d9.tar.gz";
+        sha256 = "5d0a3aaaad3d825e23429808a56a66e05057a3db5283e8350dc3dca66e497692";
     };
 }

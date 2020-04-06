@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Map-Agnostic" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.2.tar.gz";
-        sha256 = "bc310d53a42ef413b0e512fde6ec8b35100a81fe45d999b3f189c9fac252c253";
+        url = "https://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.3.tar.gz";
+        sha256 = "32c6f4244f439d8d21f6faff2fb72f96387dcdb05e0c00a530c4054db3fde5c5";
     };
 }

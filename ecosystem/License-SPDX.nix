@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Class" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/License-SPDX-3.7.1.tar.gz";
-        sha256 = "55ad4745f809fb59e9d338022f14ab8237efcb442afe78ebe6794c49a1470252";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/License-SPDX-3.8.0.tar.gz";
+        sha256 = "648ace9ddc79e8eb355cda2be88b36d5105c13420106403b4f879cf6c18ea375";
     };
 }

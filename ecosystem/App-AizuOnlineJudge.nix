@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Cro-HTTP" rakuPackages."Terminal-Getpass" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/App-AizuOnlineJudge-0.0.3.tar.gz";
-        sha256 = "03e020c4e6011e329d385be2fc11e124d114b32b6c510b37413bcbaf285d78a4";
+        url = "https://github.com/titsuki/p6-App-AizuOnlineJudge/archive/61054ef6ea9ad3be7fe836955e9ff7f47cca943e.tar.gz";
+        sha256 = "a1c1ae85ab7cdb867ecc203b463ce680138840032dcdc59c560e3599d952d3c8";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Backtrace-AsHTML-0.0.1.tar.gz";
-        sha256 = "191151d9abf512782de127045f9629214387bba75747e93edcce61ac4c2ede16";
+        url = "https://github.com/moznion/p6-Backtrace-AsHTML/archive/93b46da52922cc686a69163ceb96649b65579032.tar.gz";
+        sha256 = "5514c60562d844be8fde5a3f983b848f7d5fba499ec9adc8c4aebc36819ccb6c";
     };
 }

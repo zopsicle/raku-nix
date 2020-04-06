@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Inline-Perl5";
     buildDepends = [  ];
-    depends = [ rakuPackages."LibraryMake" ];
+    depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.43.tar.gz";
-        sha256 = "6f10121e6dafd48f0e598c934f8a1c10122f593d4e7092f26c52529af4d8cc62";
+        url = "https://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.44.tar.gz";
+        sha256 = "52db124fd7f1f7faa904524a5e918046a7e9e72bd9811a0f92261e33cc772c88";
     };
 }

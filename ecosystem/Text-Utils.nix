@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-Utils-Raku-2.0.1.tar.gz";
-        sha256 = "bbfd5984a2b90b3b07497f41c2d1b663560db6f20a3107d8fda91fdfb38ab8eb";
+        url = "https://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-Utils-Raku-2.1.1.tar.gz";
+        sha256 = "2f318a00c8a0717fc924ddddd250da00654143477cc20a6c1cf65051f5efe205";
     };
 }

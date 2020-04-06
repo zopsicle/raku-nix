@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/kalkin/perl6-hashids/archive/4e0010c31ce25924a37373aa2c716f3fb0e32543.tar.gz";
-        sha256 = "097748b314b4ff3c191d42cecc01c45ab826458aaf9dcef7514a4e86f8f6c958";
+        url = "https://github.com/kalkin/perl6-hashids/archive/271c3f202193fe645eff231a4cb84e0c691b279d.tar.gz";
+        sha256 = "593069c8c539652f240af95991997a67e4768975043b68a6e7eff1efa9ecc820";
     };
 }

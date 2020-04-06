@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Apache-LogFormat" rakuPackages."Backtrace-AsHTML" rakuPackages."Base64" rakuPackages."Cookie-Baker" rakuPackages."File-Temp" rakuPackages."Getopt-Tiny" rakuPackages."HTTP-Easy" rakuPackages."HTTP-MultiPartParser" rakuPackages."HTTP-Server-Tiny" rakuPackages."HTTP-UserAgent" rakuPackages."Hash-MultiValue" rakuPackages."URI-Escape" ];
     src = fetchurl {
-        url = "https://github.com/tokuhirom/p6-Crust/archive/032ad8e0075f3d7ea892a47780d658e0161fbe4d.tar.gz";
-        sha256 = "129c7066ee9db5e4b3d6ba6bba9a974c20aefc561dd4483687058ec1d351b0e1";
+        url = "https://github.com/tokuhirom/p6-Crust/archive/ae5e197ebc1c8d1aaffe7f4eb8e9cbde6f5ea96b.tar.gz";
+        sha256 = "5c03c19ae3065afe4f738f004ce861cf600e918e67ec29e44bbe46b8d28fd2e1";
     };
 }

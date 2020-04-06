@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/Async-Command-0.0.3.tar.gz";
-        sha256 = "d779f32210dcf906ce9b88a65001b0087fcf9bd9e4dc21da3915cc86c9ada4c3";
+        url = "https://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/Async-Command-0.1.1.tar.gz";
+        sha256 = "98fb7d0056b9e6d6d60b6352478c69f819a1add3adbbfef9bfff5efa3b4eb95c";
     };
 }

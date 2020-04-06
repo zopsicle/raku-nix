@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Crust" rakuPackages."HTTP-Server-Tiny" rakuPackages."HTTP-UserAgent" rakuPackages."JSON-Class" rakuPackages."Lumberjack" rakuPackages."Template6" rakuPackages."WebSocket" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Application-0.0.7.tar.gz";
-        sha256 = "5abb59f43dabad364ee281c6da9a9fa36d8a1117678b085475392d65e38ed34f";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Application-0.0.8.tar.gz";
+        sha256 = "1b70de183262cedc22d2e4e16271a1e16afb2ea7e37707a9e1cb3eebbe261898";
     };
 }

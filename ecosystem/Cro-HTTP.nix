@@ -6,8 +6,8 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Base64" rakuPackages."Cro-Core" rakuPackages."Cro-TLS" rakuPackages."Crypt-Random" rakuPackages."DateTime-Parse" rakuPackages."HTTP-HPACK" rakuPackages."IO-Path-ChildSecure" rakuPackages."IO-Socket-Async-SSL" rakuPackages."JSON-Fast" rakuPackages."JSON-JWT" rakuPackages."Log-Timeline" rakuPackages."OO-Monitors" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-http-0.8.2.tar.gz";
-        sha256 = "ceb39a65dfcbc70e4e50440c7323be9e15431390bc9db4f42f33647469aa4502";
+        url = "https://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-http-0.8.3.tar.gz";
+        sha256 = "e5c6cff3013946dd0ab5b533ec87e2305fcfcb6ef7c3a4aaf942f4ccc3bd4ad4";
     };
     preInstallPhase = ''
         ldLibraryPath=${lib.makeLibraryPath [ openssl ]}

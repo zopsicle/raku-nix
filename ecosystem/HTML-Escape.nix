@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/HTML-Escape-0.0.1.tar.gz";
-        sha256 = "89d0b92a3f461ee31b4e8a7a896c7457a005eb4691f0e7426809beadb9c47799";
+        url = "https://github.com/moznion/p6-HTML-Escape/archive/57907ffbf2e83819feb23d0de13eefd4cb99954d.tar.gz";
+        sha256 = "db4f3f52027521e4ac89d1d0c67440fc8786572f735977a98366d8a967287fba";
     };
 }

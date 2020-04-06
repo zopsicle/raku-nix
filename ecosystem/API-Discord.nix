@@ -4,9 +4,9 @@
 rakuPackage {
     name = "API-Discord";
     buildDepends = [  ];
-    depends = [ rakuPackages."Cro-WebSocket" rakuPackages."URI-Encode" ];
+    depends = [ rakuPackages."Cro-WebSocket" rakuPackages."Data-Dump" rakuPackages."Object-Delayed" rakuPackages."URI-Encode" ];
     src = fetchurl {
-        url = "https://github.com/shuppet/p6-api-discord/archive/47cc99367a28efa8af6962636a355bf7556f35e3.tar.gz";
-        sha256 = "0c23362da100575289dfc3a10f2ea6dc5c356ddbb4c688552fd0695dbd20cfe9";
+        url = "https://github.com/shuppet/p6-api-discord/archive/cce665679108d50c79d94fe9d60d281a1310a16c.tar.gz";
+        sha256 = "76c3c7c3e2ecb52e15fc92fd2f8ece2f06c52aadbc413b1909f54387c550936c";
     };
 }

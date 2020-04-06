@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-1.0.0.tar.gz";
-        sha256 = "a600c4f9c0060ad48d8ca53506497784da0d8abaa2f033d6e24ca19a879775f5";
+        url = "https://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-1.0.1.tar.gz";
+        sha256 = "ffddd2c8f1b36998d86f5670ee4e2a30582af8a1e0772813bc640e2ab27032ec";
     };
 }

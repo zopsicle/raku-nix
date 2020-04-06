@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Date-Calendar-Hebrew";
     buildDepends = [  ];
-    depends = [ rakuPackages."List-MoreUtils" ];
+    depends = [ rakuPackages."Date-Calendar-Strftime" rakuPackages."List-MoreUtils" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Hebrew-0.0.2.tar.gz";
-        sha256 = "a1d19835f519aff329dffbbc5e0d789c161de1a22274f59de0a4cc9252292787";
+        url = "https://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Hebrew-0.0.3.tar.gz";
+        sha256 = "a5065977eb1579e5b600bf35f14497f2293194f8a99451406f10735bdd040a12";
     };
 }

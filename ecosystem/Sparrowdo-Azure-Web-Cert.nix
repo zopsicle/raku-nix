@@ -4,9 +4,9 @@
 rakuPackage {
     name = "Sparrowdo-Azure-Web-Cert";
     buildDepends = [  ];
-    depends = [ rakuPackages."Sparrowdo" ];
+    depends = [ rakuPackages."Sparrow6" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Azure-Web-Cert-0.0.3.tar.gz";
-        sha256 = "d3637ab528d57945f04219324dd122c559d901a36a7830146e183dd733b0c7ea";
+        url = "https://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Azure-Web-Cert-0.0.4.tar.gz";
+        sha256 = "9c9f1d5d4829f48004a46609981047ad92b5abb44043b8299df4f419b1e70555";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."File-Which" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Liquidsoap-0.0.7.tar.gz";
-        sha256 = "f5f1a7dccc8a48c2c61b53c69e9e9b4767f6c87323429e78184dfff16c000886";
+        url = "https://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Liquidsoap-0.0.8.tar.gz";
+        sha256 = "b790d5da9405626dd3c46b449ef66206451dee04bf6f29241bfbca35d4e64a33";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/atweiden/file-presence/archive/0dafb6a6693142a70b41e65ae7a30f33f9d82a4f.tar.gz";
-        sha256 = "2d8015ae76d0642df91e3b7ce555ed40f8dcebff466488b46299c1365cd8cb8b";
+        url = "https://github.com/atweiden/file-presence/archive/da87b4d8ed6bb97c014ffd2d0543fb2a882a4001.tar.gz";
+        sha256 = "6d5777aa0edc9acb9cde20426e893b1c4e1b5937c260cff07c4d9b338c89cea8";
     };
 }

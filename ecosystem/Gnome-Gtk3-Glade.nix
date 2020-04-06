@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Gnome-Gtk3" rakuPackages."XML-Actions" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-glade3-0.8.8.tar.gz";
-        sha256 = "06f8143177b6ee24a309806f66968a9da7dad6224829f3cd328453936c454091";
+        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glade3-0.8.9.tar.gz";
+        sha256 = "b2438f11bd6a8ec20c8ad6700d238a6e1ac69ea3d2f6531c5674574cd8687ce1";
     };
 }

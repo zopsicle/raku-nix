@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/H/HY/HYTHM/Perl6/Grid-0.0.2.tar.gz";
-        sha256 = "ed09d248c8fd017c07883757e3b4f329db95a40b466a90f10d9fdbbfa24526bf";
+        url = "https://github.com/hythm7/Grid/archive/150956087fcf7a686b915b5867d91cb608ba2574.tar.gz";
+        sha256 = "7c4c8cea93ec78c942f17f14a8dacae27913a9dbbbe2e75ddb0834e797964645";
     };
 }

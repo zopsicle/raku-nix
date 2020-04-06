@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/thundergnat/Rat-Precise/archive/50c62c8cc7f8941be428bd72b192dd5498a7671a.tar.gz";
-        sha256 = "9c62024bd694e28ae8b1bd8da909c73f3b5be29ba1b14e83d30845250ead3e8e";
+        url = "https://github.com/thundergnat/Rat-Precise/archive/a996a482ba20124e428fb31fba7abc619398e9a5.tar.gz";
+        sha256 = "76896166f5a3fd9967574bee09bfb9596f1cc04bd4895d1c0ff928026738482f";
     };
 }

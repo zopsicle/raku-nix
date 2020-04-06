@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/sergot/openssl/archive/597e836c73684bb53ac5cb4511edca9b4f10ea87.tar.gz";
-        sha256 = "e308e3f70d50f40a3c3bb3dec8f28709c0339cddce28350ed9993a76b46a13d1";
+        url = "https://github.com/sergot/openssl/archive/c631d85a80273f8e072ecb799fa35708560715b5.tar.gz";
+        sha256 = "794a3697d0174e22f3cb8dfcbf0e24ec4f1882430040574e8947ca7dfd953ed3";
     };
 }

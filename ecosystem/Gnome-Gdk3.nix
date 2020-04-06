@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Gnome-GObject" rakuPackages."Gnome-Glib" rakuPackages."Gnome-N" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gdk3-0.15.0.1.tar.gz";
-        sha256 = "df98ec135f1a2e59d581f696ad448d9e474f42b3ef9eff7a2af7f12dfc9f3ba4";
+        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gdk3-0.15.4.1.tar.gz";
+        sha256 = "b02a157f03a1fedbc82bd3df7bce066d82c4937a73e9cd695f4ce6748b846b4d";
     };
 }

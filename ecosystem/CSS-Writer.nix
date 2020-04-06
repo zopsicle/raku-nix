@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."CSS-Grammar" rakuPackages."Color-Names" rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://github.com/p6-css/CSS-Writer-p6/archive/571791d28add37f1e7e3204bb018a5d6b3815ff4.tar.gz";
-        sha256 = "2e80ce5c6d516b00ef1588163c99776fc8b4e64c4a5b721c2aa029374e94575b";
+        url = "https://github.com/p6-css/CSS-Writer-p6/archive/c34a3976a30a7037e61ddf3736c05727e098aff3.tar.gz";
+        sha256 = "a5041d001de0907e7c11f5f4462895afe3a17b04a89e8f59a768aad44063c277";
     };
 }

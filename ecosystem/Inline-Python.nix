@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/niner/Inline-Python/archive/7ceee0baf3c47cdb35fcf6bfa3e83d43b0fc3e8c.tar.gz";
-        sha256 = "1bcfa86c533c12f029a944e7681281d78f19bae7fe5a7632d70c1c109c72e816";
+        url = "https://github.com/niner/Inline-Python/archive/53a1c2ca1751b5928909d929493e5ed29a721d02.tar.gz";
+        sha256 = "ae0ebce0b6bff32733ab80d700549c7baacab6f7a2258d1b3b3358be9842b2a8";
     };
 }

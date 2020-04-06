@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Compress-Zlib" rakuPackages."JSON-Fast" rakuPackages."OpenSSL" rakuPackages."PDF-Grammar" ];
     src = fetchurl {
-        url = "https://github.com/p6-pdf/PDF-p6/archive/e26424490831c27ee0905853752b916774563c1d.tar.gz";
-        sha256 = "7f7631507d0ed65ae7ad292e5a79a3f259fe42bdbc7b968e7bb971abd4a18f13";
+        url = "https://github.com/p6-pdf/PDF-p6/archive/ded4a20c708fd714170bd420f81c31b0514baa56.tar.gz";
+        sha256 = "f259a9e867c63b03ade95fce85c3dc54bd36a022b5e2293264b8d4b9f09dd9f1";
     };
 }

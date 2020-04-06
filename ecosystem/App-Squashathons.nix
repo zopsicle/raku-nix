@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."IO-Socket-SSL" rakuPackages."LWP-Simple" ];
     src = fetchurl {
-        url = "https://github.com/JJ/p6-app-squashathons/archive/fde737a5939de0f658a55a3c27fa9b195f04e88c.tar.gz";
-        sha256 = "d42964749fc8c3219230d1fb85d32452900ba1fe058f98d29452816db6d4e0ac";
+        url = "https://github.com/JJ/p6-app-squashathons/archive/570d5ee3395a9a96a711882d2e97889b041cecbb.tar.gz";
+        sha256 = "14695ed28125e663a2176df6fa8390069f5296b1fa067ce68b265465b0de7361";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MS/MSTEMLE/Perl6/perl6-Fcntl-0.0.1.tar.gz";
-        sha256 = "fbcdfb7bf0eed0e8288161f658896dce5bcdcfa7980a1fe0637352f08c8f2396";
+        url = "https://github.com/manchicken/perl6-Fcntl/archive/b21489c85ef21061929df0a117c18729d24aa62a.tar.gz";
+        sha256 = "d304d8d42dbe7e756d0a3a6a3d5ecd0a9b4f081b495113c81d6c6901b981a5f7";
     };
 }

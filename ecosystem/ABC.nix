@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/colomon/ABC/archive/499e3aa56d7c1635d26b91b0529939d2e55144ce.tar.gz";
-        sha256 = "8d36ff9c0dfa19b5d1e6bd00ac7bbeab7ef4202b8293aae74b64ef094825a3db";
+        url = "https://github.com/colomon/ABC/archive/4bc615ffba6692a2fd9cd7067f0a7908ee2ec5d7.tar.gz";
+        sha256 = "387d682269a15350bc5a70b26b25839a27bd25ab855a4a36b11b922bd7c25fdd";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."CSS-Grammar" rakuPackages."JSON-Fast" ];
     src = fetchurl {
-        url = "https://github.com/p6-css/CSS-Module-CSS3-Selectors-p6/archive/e53862025a7664a1cb60b090a950987d91cc0929.tar.gz";
-        sha256 = "39348c1c0d19f95a767e08656df17ee2d7809b33aff221ca04d9b8527a6bb2e0";
+        url = "https://github.com/p6-css/CSS-Module-CSS3-Selectors-p6/archive/734b2d8e75accc52d9ca424acb71b9761bccd37a.tar.gz";
+        sha256 = "73808efed5d8bcb73be6ae942dc1456f9844ef849aa86f3c091b243412f46586";
     };
 }

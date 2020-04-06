@@ -4,9 +4,9 @@
 rakuPackage {
     name = "CSS-Properties";
     buildDepends = [  ];
-    depends = [ rakuPackages."CSS-Module" rakuPackages."CSS-Writer" rakuPackages."Color" rakuPackages."Method-Also" ];
+    depends = [ rakuPackages."CSS-Box" rakuPackages."CSS-Module" rakuPackages."CSS-Writer" rakuPackages."Color" rakuPackages."Method-Also" ];
     src = fetchurl {
-        url = "https://github.com/p6-css/CSS-Properties-p6/archive/de4fd0efb92b44b60024c4c652badbc585ae7a29.tar.gz";
-        sha256 = "060a992ad58d66653671dbcab64170e46ff458fa73f2238a547fcdf166f2b0ea";
+        url = "https://github.com/p6-css/CSS-Properties-p6/archive/a25c16588e9d6c2abb9971b79f79e9893f91e7b2.tar.gz";
+        sha256 = "7ca31739312baaaf62fa5c0a7d88713090239231ce829aff46e0a6a92df5c8cf";
     };
 }

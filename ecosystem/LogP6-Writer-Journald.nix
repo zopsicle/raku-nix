@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."LogP6" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-Writer-Journald-1.3.2.tar.gz";
-        sha256 = "bea271e68d866939dd7307b621ac127303e83c53ba92bc3e167beae03e80ecc0";
+        url = "https://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-Writer-Journald-1.3.3.tar.gz";
+        sha256 = "527fc4762c7cc6276c328367b02fe47a334f9d11531987ec1c80e8c04e74b9be";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/perl6-community-modules/System-Passwd/archive/a50c336a3c02aa98163c72bec025ec4c659ced9b.tar.gz";
-        sha256 = "30f0c478345431c244fbb2fdaebb29fa1c486eeebf75390045d54c2df04c3be8";
+        url = "https://github.com/raku-community-modules/System-Passwd/archive/76ffef783752b2f4c26d8c2f5dd9a4ec3c05eaad.tar.gz";
+        sha256 = "e397528989827bc4f9f072f05ec18e57e9e4d62f80a225b0f21cdb7ebedef33f";
     };
 }

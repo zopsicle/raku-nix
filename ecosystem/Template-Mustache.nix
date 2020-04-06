@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/softmoth/p6-Template-Mustache/archive/4f09e0a97f38fe5d8c75514ca0c858cdfb26d09b.tar.gz";
-        sha256 = "005f6f3260cc0defbe6d843adc52d4ea6fdfe3551f1a53f35c433abe02190513";
+        url = "https://github.com/softmoth/p6-Template-Mustache/archive/5681033f00f690858dae7195275abf309a7ffdcc.tar.gz";
+        sha256 = "e2323a741783550643d01291da0a9b491336b3028037714ee112da898dd4131a";
     };
 }

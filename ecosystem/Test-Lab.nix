@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://github.com/MadcapJake/Test-Lab/archive/de5270b78dc49271b3eef8d14eefe5ddd56a0c7e.tar.gz";
-        sha256 = "6d10b885b6060fddf261ed1d1cfce85e70fd796225bb17c57becec7b2b8f4590";
+        url = "https://github.com/MadcapJake/Test-Lab/archive/064384386a9b0579e8ed05ea786afec1d9b84f79.tar.gz";
+        sha256 = "2e320a4c68ea864c5572f45a8f1f8a152e5ff1ef0bdfbfe47ab7b545eda7de46";
     };
 }

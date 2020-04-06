@@ -19,16 +19,16 @@ sub nix_depends
     @_;
 }
 
-if (! -e 'sqlite') {
+if (! -e 'sqlite.sqlite3') {
     say 'WARNING: DOWNLOADING DATABASE WITHOUT TLS!';
     say 'PRESS ENTER TO CONTINUE.';
     scalar(<STDIN>);
     # TODO: Once I get TLS fixed on my server, use HTTPS instead of HTTP.
-    system('wget "http://database.crai.foldr.nl/sqlite"')
+    system('wget "http://database.crai.foldr.nl/sqlite.sqlite3"')
         and die('wget');
 }
 
-open(my $sqlite, '-|', 'sqlite3', 'sqlite', <<'SQL') or die("open: $!");
+open(my $sqlite, '-|', 'sqlite3', 'sqlite.sqlite3', <<'SQL') or die("open: $!");
     SELECT url,
            sha256_hash,
            meta_name,

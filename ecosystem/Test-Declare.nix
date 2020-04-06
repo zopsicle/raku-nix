@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."IO-Capture-Simple" rakuPackages."Test" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/D/DA/DARRENF/Perl6/Test-Declare-0.0.2.tar.gz";
-        sha256 = "2e90407d3674db3e10404d66f87f76b051de539b499b59982d880bbcdbd4ec8a";
+        url = "https://github.com/darrenf/p6-test-declare/archive/18b6bd209c218c10f251c68fdf90fc0b876ec120.tar.gz";
+        sha256 = "fbb2ac385987ab02028cbe1dd3d235b686177bca3353ad0137dc3ec48c5f0da3";
     };
 }

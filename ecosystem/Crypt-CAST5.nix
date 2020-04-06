@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Crypt-CAST5-0.1.0.tar.gz";
-        sha256 = "486240bb9a603479c136c422ac22c6dd8ac9525d20d65183726148e1dc2aca91";
+        url = "https://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Crypt-CAST5-0.1.1.tar.gz";
+        sha256 = "0f85d06a5611b6b565cddb2befaccae6cc39c671b00474b3f3608dba59b1fb41";
     };
 }

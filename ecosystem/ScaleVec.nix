@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."JSON-Tiny" rakuPackages."Result" rakuPackages."Serialise-Map" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/ScaleVec-0.0.5.tar.gz";
-        sha256 = "80ec707fc408351778593c2a9948c892b855032e47146ea56141a1808c524efe";
+        url = "https://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/ScaleVec-0.0.6.tar.gz";
+        sha256 = "aedc80938c50132357d42ff38d1acd43eae6118348e03b08bca95ea4e1ecf496";
     };
 }

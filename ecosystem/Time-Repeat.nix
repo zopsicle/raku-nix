@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AR/ARNE/Perl6/p6-time-repeat-0.0101.tar.gz";
-        sha256 = "d986a802933057d0ee98efd96e39fe8aa1a0028f2bae4eaeca85a9e67f1a2e0d";
+        url = "https://www.cpan.org/authors/id/A/AR/ARNE/Perl6/Time-Repeat-0.02.tgz";
+        sha256 = "2e4c98c64f8d9db2b37c399fc15d1ace9b6c8588389259aee747e30e5809fb48";
     };
 }

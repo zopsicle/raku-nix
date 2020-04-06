@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/C/CO/COKE/Perl6/App-Uni-1.0.1.tar.gz";
-        sha256 = "5f345549c73ee8463bcfdaee577d7af2c64b77c9ca138d67f79d73487b890779";
+        url = "https://github.com/coke/p6-uni/archive/f75701544148089def48b02ada0f33721ae8d9f9.tar.gz";
+        sha256 = "916e87002d2548d129d5931897d03ac7bd8edcf0748a8fb9407f0649c29c009f";
     };
 }

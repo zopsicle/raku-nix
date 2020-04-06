@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."Digest-xxHash" ];
     src = fetchurl {
-        url = "https://github.com/atweiden/txn-parser/archive/464968e0d86630d6bb89662a5187f69ce77539be.tar.gz";
-        sha256 = "bcc744098b7cd7885a0f538c75894ceda374a28eb2cb3e95e183e4b09214139f";
+        url = "https://github.com/atweiden/txn-parser/archive/967ac5542f163e1d82972ce18abc3bddd13a8a86.tar.gz";
+        sha256 = "8d95e3e79613ee5951ea4d6ba9cbce71f0b6fb03a8bf312f3f861799b755e5d8";
     };
 }

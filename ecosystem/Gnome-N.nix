@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-native-0.15.1.1.tar.gz";
-        sha256 = "305db2d84b058825402d081808a496e992762734ae45e5f0341655df3c0a1c67";
+        url = "https://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.17.3.tar.gz";
+        sha256 = "a0fb2ac40b100c54e4c0bf32120c1df6b76f0f6830d1ad17edfdf7b9fb0d3b17";
     };
 }

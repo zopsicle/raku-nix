@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/A/AK/AKIYM/Perl6/JSON-Hjson-0.0.1.tar.gz";
-        sha256 = "3f9d68cf4e5282508f500967d8b880a9020079d4c398c70adcf7dc32511889cb";
+        url = "https://github.com/akiym/JSON-Hjson/archive/317c585bfe34922dec8b00bc2b87dec07ae78409.tar.gz";
+        sha256 = "abea25429ac72fe40109218a13b5b5a745cac4a4930a060ef762b725f580dc06";
     };
 }

@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/V/VR/VRURG/Perl6/IP-Addr-v0.0.2.tar.gz";
-        sha256 = "43338ac4448feb282027c7d8d9abf2c04ed1e0c6504cf586f1ef2310b3fb4ad6";
+        url = "https://www.cpan.org/authors/id/V/VR/VRURG/Perl6/IP-Addr-v0.0.3.tar.gz";
+        sha256 = "87f702efc51f70199223e6774260e0ffa61aae97299e7375a7aa12e307afaa74";
     };
 }

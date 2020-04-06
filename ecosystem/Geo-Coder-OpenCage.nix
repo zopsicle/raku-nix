@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [ rakuPackages."HTTP-UserAgent" rakuPackages."JSON-Unmarshal" rakuPackages."URI" ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TA/TADZIK/Perl6/Geo-Coder-OpenCage-1.0.tar.gz";
-        sha256 = "17ed250c70f52e945630248b8e62b3fd21fc6379f03415cd8784576de53ff8e5";
+        url = "https://github.com/tadzik/Geo-Coder-OpenCage/archive/21cf7596c4321bd940894cd7dabc77a99d0245a2.tar.gz";
+        sha256 = "140e6c056a1831061107dbcb53456315e10ad7ee7162f29df1247602e4a8f14c";
     };
 }

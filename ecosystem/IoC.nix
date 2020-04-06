@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/IoC-0.0.4.tar.gz";
-        sha256 = "3cbd2268d93d2311296fa34dd976171ebc9b5ff62292c31dae0d8344a82c6bae";
+        url = "https://github.com/jasonmay/perl6-ioc/archive/3c550a3c05f9dca3b5c9f973b5bef50ca865b383.tar.gz";
+        sha256 = "e758195b2f352368bcd5affc621bae857a1c5a22423dd750915e5f1c9fb6f57b";
     };
 }

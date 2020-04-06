@@ -6,7 +6,7 @@ rakuPackage {
     buildDepends = [  ];
     depends = [  ];
     src = fetchurl {
-        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.10.tar.gz";
-        sha256 = "317c8b5dd0a053cc93f29f6d948bbb4cd43b54178068af250e3882f4eee4753e";
+        url = "https://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.11.tar.gz";
+        sha256 = "6c3d995e33e5dcd82e3a7dd806cc19161381f40f92bbe74e26d395c0a2b0e257";
     };
 }
