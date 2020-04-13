@@ -2,6 +2,7 @@
 { pkgs ? import ./nix/pkgs.nix {} }:
 let
     package = p: r: pkgs.callPackage p ({ inherit rakuPackage rakuPackages; } // r);
+    rakuWithPackages = pkgs.callPackage ./tools/rakuWithPackages.nix { inherit rakuPackages; };
     rakuPackage = pkgs.callPackage ./tools/rakuPackage.nix {};
     rakuPackages = {
         "6pm" = package (./. + "/ecosystem/6pm.nix") {};
@@ -1248,4 +1249,4 @@ let
         "zef" = package (./. + "/ecosystem/zef.nix") {};
     };
 in
-    { inherit rakuPackage; } // rakuPackages
+    { inherit rakuPackage rakuWithPackages; } // rakuPackages
